@@ -12,8 +12,8 @@ header{
  .header-top-menu {
      display: flex;
      width: 100%;
-     /* background-color: #2ba733ab; */
-     background-color: #188f20d6;
+     background-color: #2ba733ab;
+     /* background-color: #188f20d6; */
      padding: 10px;
      margin: 0 auto;
      color: white;
@@ -29,8 +29,8 @@ header{
  nav {
      display: flex;
      width: 100%;
-     /* background-color: #2ba733ad; */
-     background-color: #0d481199;
+     background-color: #2ba733ad;
+     /* background-color: #0d481199; */
      margin: 0 auto;
      color: white;
      padding: 0px 20px 10px 20px;
@@ -62,8 +62,8 @@ li a.nav-font{
   display: flex;
   align-items: center;
   justify-content: center;
-      /* background: #39ac41; */
-      background-color: #0d481199;
+      background: #39ac41;
+      /* background-color: #0d481199; */
       padding: 10px 0px;
 }
 
@@ -127,15 +127,14 @@ footer {
 .footerdas {
     flex-direction: row;
     display: flex;
-    background-color: #0d481199;
+    background-color: #269c2fe8;
     /* box-shadow:-4px 2px 5px black; */
 }
 .footer-copyright {
     text-align: center;
     padding: 10px;
-     /* background-color: #3aad41; */
-background-color: #2b752f;
-box-shadow: 0px 0px 1px black;
+     background-color: #3aad41;
+/* background-color: #2b752f; */
 }
 /* Batas Footer */
 
