@@ -1,0 +1,114 @@
+ body {
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+     background-color: #3da2375e;
+ }
+
+header{
+        background-color: #58b85d;
+}
+
+ .header-top-menu {
+     display: flex;
+     width: 100%;
+     background-color: #2ba733ab;
+     padding: 10px;
+     margin: 0 auto;
+     color: white;
+  box-shadow: -4px 2px 5px black;
+     /* border-bottom-left-radius: 15px; */
+     line-height: 15px;
+ }
+
+.date-top-menu.flex-grow-1 {
+    margin-right: 25px;
+}
+
+ nav {
+     display: flex;
+     width: 100%;
+     background-color: #2ba733ad;
+     margin: 0 auto;
+     color: white;
+     padding: 0px 20px 10px 20px;
+     height: 50px;
+ }
+
+li a.nav-font{
+    font-size: 23px;
+    padding-right: 50px;
+    color: white;
+    font-family: 'Rancho',    cursive;
+}
+
+.nav-menu.flex-grow-1 {
+    margin-right: 20px;
+}
+
+ .nav-menu ul {
+     list-style: none;
+     float: right;
+ }
+
+ .nav-menu ul li {
+     display: inline;
+ }
+
+/* Jumbotron */
+.jumbotron{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+      background: #39ac41;
+      padding: 10px 0px;
+}
+
+.header-content{
+    width: 68%;
+    display: flex;
+}
+
+.header-section{
+    padding-top: 145px;
+}
+
+ /* Batas Header */
+
+ /* Main */
+
+ .float-left {
+     float: left;
+ }
+
+ .float-right {
+     float: right;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ .flex-grow-1 {
+     flex-grow: 1;
+ }
+
+ .flex-grow-2 {
+     flex-grow: 2;
+ }
+
+ .clear-margin{
+     margin: 0px;
+    
+ }
+
+ .header-section{
+     padding-top: 150px;
+     margin-right: -120px;
+ }
+
+ span {
+     border-left: 1px solid;
+     padding-left: 5px;
+     padding: 0px 10px;
+ }
