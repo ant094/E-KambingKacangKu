@@ -13,53 +13,45 @@
     <link href="https://fonts.googleapis.com/css?family=Rancho&display=swap" rel="stylesheet">
 </head>
 
-<body>
-
-
+<body >
     <!-- ini header -->
-    <header>
-        <div class="header-top-menu">
-            <div class="social-media-top-menu flex-grow-2">
-                <span>
-                    <i class="fab fa-facebook-f" style="font-size: 12px;"></i>
-                </span>
-                <span>
-                    <i class="fab fa-instagram" style="font-size: 12px;"></i>
-                </span>
-                <span>
-                    <i class="fab fa-twitter" style="font-size: 12px;"></i>
-                </span>
-                <span>
-                    <i class="fab fa-youtube" style="font-size: 12px;"></i>
-                </span>
+    <header style="display: inline;" >
+        <div class="flex-row  text-color-white header-top-menu" >
+            <div class="flex-grow-1 width-80">
+<div class=" flex-grow-1 ml-1">
+       <span>
+           <i class="fab fa-facebook-f facebook-style p-2" ></i>
+           <i class="fab fa-instagram instagram-style p-2" ></i>
+           <i class="fab fa-twitter twitter-style p-2" ></i>
+           <i class="fab fa-youtube youtube-style p-2" ></i>
+       </span>
+</div>
             </div>
-            <div class="date-top-menu flex-grow-1 ">
-                <span id="date" class="float-right" style="font-size: 12px; font-family: serif;"></span>
-
+            
+            <div class="mr-5 flex-grow-1 width-20 pt-2 text-content ">
+                <span id="date" class="float-right font-size-14 pl-1" ></span>
             </div>
         </div>
 
-        <nav>
-            <div class="nav-brand flex-grow-1">
-                <img src="Asset/image/logo.png" alt="" style="width: 170px; ">
-            </div>
-            <div class="nav-menu flex-grow-1">
-                <ul>
-                    <li><a href="#sejarah" class="nav-font">Pakan</a></li>
-                    <li><a href="#geografis" class="nav-font">Kandang</a></li>
-                    <li><a href="#wisata" class="nav-font">Penyakit</a></li>
-                    <li><a href="#wisata" class="nav-font">Pencatatan Produksi</a></li>
+        <nav class="flex-row navigasi" style="position: sticky;
+   top: 0; z-index: 1;">
+            <figure class="m-0 flex-grow-1 width-50 pt-3 pl-4">
+                <img src="Asset/image/logo.png" alt="" class="width-25">
+            </figure>
+            <div class="nav-menu flex-grow-1  width-50 ">
+                <ul class="m-0 ml-2 mr-2 pb-2 pt-2" >
+                    <li class=""><a href="#pakan" class="mr-4 ml-5 p-1 text-color-white nav-style font-size-25">Pakan</a></li>
+                    <li class=""><a href="#kandang" class="mr-4 ml-5 p-1 text-color-white nav-style font-size-25">Kandang</a></li>
+                    <li class=""><a href="#penyakit" class="mr-4 ml-5 p-1 text-color-white nav-style font-size-25">Penyakit</a></li>
+                    <li class=""><a href="#pencatatan_produksi" class="ml-5 p-1 text-color-white nav-style font-size-25">Pencatatan Produksi</a></li>
                 </ul>
             </div>
         </nav>
 
-        <div class="jumbotron">
-            <div class="header-content">
-                <div class="header-section ">
-                    <p class="clear-margin" style=" text-align: justify;
-     color: white;
-         font-family: cursive;
-         font-size: 17px;">
+        <article id="header-jumbotron" class="flex-center header-jumbotron pl-2 pr-2">
+            <div class="flex-row width-65  pb-2 pt-5">
+                <div class="header-jumbotron-content text-color-white text-justify ">
+                    <p class="m-0" >
                         Kambing Kacang adalah rumpun kambing lokal
                         yang persebarannya paling luas dan paling banyak
                         diternakkan di Indonesia. Kambing kacang termasuk
@@ -68,232 +60,257 @@
                         hanya 55–60 cm dan bobotnya 20-30 kg.
                     </p>
                 </div>
-                <div class="header-content-image ">
-                    <img src="Asset/image/kambing_kacang.png" alt="" class="pt-5 width-85">
-
-                </div>
-            </div>
-
-        </div>
-    </header>
-
-    <!-- ini main -->
-    <main>
-        <article class="pakan page-shadow-black">
-            <div class="flex-grow-1">
-                <h1 class="text-header">Pakan</h1>
-                <ul class="m-0 pt-2">
-                    <li style="list-style: none; display: inline;">Pakan Hijauan</li>
-                    <li style="list-style: none; display: inline;">Pakan Konsentrat</li>
-                </ul>
-            </div>
-
-            <div class="content-pakan">
-                <section class="flex-grow-1 width-30">
-                    <p>Rumput</p>
-                    <img src="Asset/image/rumput_gajah.PNG" alt=""
-                        style="width: 180px; height: 170px; border-radius: 100%;">
-                    <div class="content-pakan-rumput">
-                        <p>
-                            Rumput gajah, Rumput
-                            raja,rumput kolonjono, tebu,
-                            jerami, padi, dan jerami jagung
-                        </p>
-                    </div>
-                </section>
-                <section class="flex-grow-1 width-30">
-                    <p>Daun</p>
-                    <img src="Asset/image/daun_singkong.PNG" alt=""
-                        style="width: 180px; height: 170px; border-radius: 100%;">
-                    <div class="content-pakan-daun">
-                        <p>
-                            Daun Singkong, nangka,
-                            albasia, waru, ketela rambat,
-                            murbei, serta leguminoceae
-                        </p>
-                    </div>
-
-                </section>
-                <section class="flex-grow-1 width-30">
-                    <p>Kacang-Kacangan</p>
-                    <img src="Asset/image/kacang_panjang.jpg" alt=""
-                        style="width: 180px; height: 170px; border-radius: 100%;">
-                    <div class="content-pakan-kacang-kacangan">
-                        <p>
-                            kacang kedelai, kacang tanah,
-                            kacang hijau, kacang panjang
-                        </p>
-                    </div>
-
-                </section>
+                  <figure class="m-0">
+                        <img src="Asset/image/kambing_kacang.png" alt="" class="pt-5 width-100">
+                  </figure>
             </div>
 
         </article>
-
-
-<!-- Kandang -->
-<article class="flex-coloum page b-content-green text-color-white width-80 p-1">
-    <div class="flex-grow-1">
-        <header>
-            <h2 class="text-header">Kandang</h2>
-        </header>
-        <p class="text-content pl-5 pr-5 m-0">
-            Beternak kambing membutuhkan kandang sebagai tempat tinggal.
-            Berikut beberapa kriteria yang harus dipenuhi untuk membuat kandang
-            kambing yang baik.
-        </p>
-    </div>
-    <div class="flex-grow-1">
-        <div class="flex-row pl-4 pr-4">
-            <div class="flex-grow-1 width-50 pt-3">
-                <!-- <figure class="m-0"> -->
-                    <img src="Asset/image/kandang_kambing.png" class="width-100" alt="">
-                <!-- </figure> -->
-            </div>
-            <div class="flex-grow-1 width-50 text-content">
-             <ol>
-                 <li>kandang terpisah dari rumah 5 m, lokasi kandang tidak lembab, bahan kandang kuat dan mudah
-                     didapat/murah, sirkulasi udara baik </li>
-                 <li>
-                     Ukuran Kandang
-                     <ol>
-                         <li>Anak: 1 x 1,2 m /2 ekor(lepas sapih) </li>
-                         <li>Pejantan: 1,2 x 1,2 m / ekor </li>
-                         <li>Betina Dewasa: 1 x 1,2 m / ekor </li>
-                         <li>Induk dan anak: 1,5 x 1,5 m / induk + 2 anak </li>
-                     </ol>
-                 </li>
-                 <li>Bentuk kandang Panggung/kolom </li>
-                 <li>Ukuran tempat pakan yang ideal adalah panjang dan lebarnya 30 cm serta tingginya 15 cm jika ada
-                     lebih dari satu ternak dalam bilik, panjang tempat ditambah 30-40 cm untuk setiap ekor ternak
-                     dewasa. </li>
-                 <li>Tempat air minum ditempatkan pada sisi luar kandang dengan ketinggian sekitar 1m. Kebutuhan air
-                     untuk
-                     kambing adalah 3-7 liter per hari
-</li>
-             </ol>
-            </div>
-        </div>
-    </div>
-</article>
-<!-- Batas Kandang -->
-<!-- COba -->
-     <article class="pakan  page-shadow-black">
-         <div class="flex-grow-1">
-             <h1 class="text-header">Pakan</h1>
-             <ul>
-                 <li style="list-style: none; display: inline;">Pakan Hijauan</li>
-                 <li style="list-style: none; display: inline;">Pakan Konsentrat</li>
-             </ul>
-         </div>
-
-         <div class="content-pakan">
-             <section class="flex-grow-1 width-30">
-                 <p>Rumput</p>
-                 <img src="Asset/image/rumput_gajah.PNG" alt=""
-                     style="width: 180px; height: 170px; border-radius: 100px;">
-                 <div class="content-pakan-rumput">
-                     <p>
-                         Rumput gajah, Rumput
-                         raja,rumput kolonjono, tebu,
-                         jerami, padi, dan jerami jagung
-                     </p>
-                 </div>
-             </section>
-             <section class="flex-grow-1 width-30">
-                 <p>Daun</p>
-                 <img src="Asset/image/daun_singkong.PNG" alt=""
-                     style="width: 180px; height: 170px; border-radius: 100px;">
-                 <div class="content-pakan-daun">
-                     <p>
-                         Daun Singkong, nangka,
-                         albasia, waru, ketela rambat,
-                         murbei, serta leguminoceae
-                     </p>
-                 </div>
-
-             </section>
-             <section class="flex-grow-1 width-30">
-                 <p>Kacang-Kacangan</p>
-                 <img src="Asset/image/kacang_panjang.jpg" alt=""
-                     style="width: 180px; height: 170px; border-radius: 100px;">
-                 <div class="content-pakan-kacang-kacangan">
-                     <p>
-                         kacang kedelai, kacang tanah,
-                         kacang hijau, kacang panjang
-                     </p>
-                 </div>
-
-             </section>
-         </div>
-
-     </article>
-<!-- batas coba -->
-<!-- Pencatatan Produksi -->
-<article class="pencatatan-produksi">
-    <header class="flex-grow-1">
-        <h1 class="text-header">Pencatatan Produksi</h1>
     </header>
-  <div class="pencatatan-produksi2">
-        <div class="flex-grow-1 width-60">
-            <p>Kegiatan pencatatan pada kartu produksi mengenai berat kambing
-                merupakan proses rutin pengumpulan dan pengukuran perkembangan
-                serta memantau perubahan yang terjadi pada kambing tiap bulannya.
-                dengan memiliki informasi tentang kambing , kita dapat mengerti
-                apa yang sedang dialami kambing tersebut
-            </p>
-        </div>
-        <div class="flex-grow-1 width-40">
-            <figure>
-                <img src="Asset/image/pencatatan_produksi.PNG" alt="" style="width: 100%;">
-            </figure>
-        </div>
-  </div>
-</article>
-<!--Batas Pencatatan Produksi -->
 
-    </main>
-    <!-- ini footer -->
-    <footer>
+    <div class="flex-column ">
         <div class="flex-grow-1 ">
-            <div class="footerdas" style="font-family: cursive;">
-                <figure class="flex-grow-1 width-30">
-                    <img src="Asset/image/logo.png" alt="" style="width: 85%; height: 75%;">
-                </figure>
+            <!-- ini main -->
+            <main class="flex-row pr-5">
+                <div class="flex-grow-1 ">
+                    <article class="flex-column page  b-radius-10 text-center p-1  b-white  page-shadow-black">
+                        <div class="flex-grow-1">
+                            <h1 class="text-header">Pakan</h1>
+                            <ul class="m-0 pt-2">
+                                <li style="list-style: none; display: inline;">Pakan Hijauan</li>
+                                <li style="list-style: none; display: inline;">Pakan Konsentrat</li>
+                            </ul>
+                        </div>
+            
+                        <div class="flex-row">
+                            <section class="flex-grow-1 width-30">
+                                <p>Rumput</p>
+                                <img src="Asset/image/rumput_gajah.PNG" alt=""
+                                    style="width: 180px; height: 170px; border-radius: 100%;">
+                                <div class="content-pakan-rumput">
+                                    <p>
+                                        Rumput gajah, Rumput
+                                        raja,rumput kolonjono, tebu,
+                                        jerami, padi, dan jerami jagung
+                                    </p>
+                                </div>
+                            </section>
+                            <section class="flex-grow-1 width-30">
+                                <p>Daun</p>
+                                <img src="Asset/image/daun_singkong.PNG" alt=""
+                                    style="width: 180px; height: 170px; border-radius: 100%;">
+                                <div class="content-pakan-daun">
+                                    <p>
+                                        Daun Singkong, nangka,
+                                        albasia, waru, ketela rambat,
+                                        murbei, serta leguminoceae
+                                    </p>
+                                </div>
+            
+                            </section>
+                            <section class="flex-grow-1 width-30">
+                                <p>Kacang-Kacangan</p>
+                                <img src="Asset/image/kacang_panjang.jpg" alt=""
+                                    style="width: 180px; height: 170px; border-radius: 100%;">
+                                <div class="content-pakan-kacang-kacangan">
+                                    <p>
+                                        kacang kedelai, kacang tanah,
+                                        kacang hijau, kacang panjang
+                                    </p>
+                                </div>
+            
+                            </section>
+                        </div>
+            
+                    </article>
+            
+            
+                    <!-- Kandang -->
+                    <article class="flex-coloum page b-green text-color-white p-1">
+                        <div class="flex-grow-1">
+                            <header>
+                                <h2 class="text-header">Kandang</h2>
+                            </header>
+                            <p class="text-content pl-5 pr-5 m-0">
+                                Beternak kambing membutuhkan kandang sebagai tempat tinggal.
+                                Berikut beberapa kriteria yang harus dipenuhi untuk membuat kandang
+                                kambing yang baik.
+                            </p>
+                        </div>
+                        <div class="flex-grow-1">
+                            <div class="flex-row pl-4 pr-4">
+                                <div class="flex-grow-1 width-50 pt-3">
+                                    <!-- <figure class="m-0"> -->
+                                    <img src="Asset/image/kandang_kambing.png" class="width-100" alt="">
+                                    <!-- </figure> -->
+                                </div>
+                                <div class="flex-grow-1 width-50 text-content">
+                                    <ol>
+                                        <li>kandang terpisah dari rumah 5 m, lokasi kandang tidak lembab, bahan kandang kuat dan
+                                            mudah
+                                            didapat/murah, sirkulasi udara baik </li>
+                                        <li>
+                                            Ukuran Kandang
+                                            <ol>
+                                                <li>Anak: 1 x 1,2 m /2 ekor(lepas sapih) </li>
+                                                <li>Pejantan: 1,2 x 1,2 m / ekor </li>
+                                                <li>Betina Dewasa: 1 x 1,2 m / ekor </li>
+                                                <li>Induk dan anak: 1,5 x 1,5 m / induk + 2 anak </li>
+                                            </ol>
+                                        </li>
+                                        <li>Bentuk kandang Panggung/kolom </li>
+                                        <li>Ukuran tempat pakan yang ideal adalah panjang dan lebarnya 30 cm serta tingginya 15 cm
+                                            jika ada
+                                            lebih dari satu ternak dalam bilik, panjang tempat ditambah 30-40 cm untuk setiap ekor
+                                            ternak
+                                            dewasa. </li>
+                                        <li>Tempat air minum ditempatkan pada sisi luar kandang dengan ketinggian sekitar 1m.
+                                            Kebutuhan air
+                                            untuk
+                                            kambing adalah 3-7 liter per hari
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Batas Kandang -->
+                    <!-- COba -->
+                    <article class="page flex-column b-white p-1  page-shadow-black">
+                        <div class="flex-grow-1">
+                            <h1 class="text-header">Penyakit</h1>
+                            <ul>
+                                <li style="list-style: none; display: inline;">Pakan Hijauan</li>
+                                <li style="list-style: none; display: inline;">Pakan Konsentrat</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <!-- batas coba -->
+                    <!-- Pencatatan Produksi -->
+                    <article class="page text-center flex-column p-1 b-green text-color-white">
+                        <header class="flex-grow-1">
+                            <h1 class="text-header">Pencatatan Produksi</h1>
+                        </header>
+                        <div class="flex-row text-justify pencatatan-produksi2">
+                            <div class="flex-grow-1 width-60">
+                                <p>Kegiatan pencatatan pada kartu produksi mengenai berat kambing
+                                    merupakan proses rutin pengumpulan dan pengukuran perkembangan
+                                    serta memantau perubahan yang terjadi pada kambing tiap bulannya.
+                                    dengan memiliki informasi tentang kambing , kita dapat mengerti
+                                    apa yang sedang dialami kambing tersebut
+                                </p>
+                            </div>
+                            <div class="flex-grow-1 width-40">
+                                <figure>
+                                    <img src="Asset/image/pencatatan_produksi.PNG" alt="" style="width: 100%;">
+                                </figure>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            
+                <div class="flex-grow-1 ml-3 width-70 text-content">
+                    <aside class="page page-shadow-black text-center ">
+                        <article class="flex-coloum page b-white  pl-2 pr-2 pb-2  ">
+                            <figure class="flex-grow-1 m-0 pt-3 ">
+                                <img src="Asset/image/profil2.jpg" alt="" class="img-rounded" style="height: 200px;" >
+                                <caption>
+                                    <p class="m-0 font-size-18">
+                                        <u>
+                                            Ari Cahyono
+                                        </u>
+                                    </p>
+                                </caption>
+                            </figure>
+                            <section class="flex-grow-1 text-left  pl-3 font-size-14  ">
+                                <h1 class="mb-1 mt-1">Profile</h1>
+                                <table>
+                                    <tr>
+                                        <td>kota lahir</td>
+                                        <td>: Blitar</td>
+                                    </tr>
+                                    <tr>
+                                        <td>tgl lahir</td>
+                                        <td>: 27 Juli 1998</td>
+                                    </tr>
+                                    <tr>
+                                        <td>asal Kota</td>
+                                        <td>: Surabaya</td>
+                                    </tr>
+                                    <tr>
+                                        <td>status</td>
+                                        <td>: Mahasiswa</td>
+                                    </tr>
+                                    <tr>
+                                        <td>prodi</td>
+                                        <td>: Teknik Informatika</td>
+                                    </tr>
+                                    <tr>
+                                        <td>kampus</td>
+                                        <td>: UWKS</td>
+                                    </tr>
+            
+                                </table>
+            
+                            </section>
+                        </article>
+                    </aside>
+                </div>
+                <!--Batas Pencatatan Produksi -->
+            </main>
+        </div>
 
-                <section class="flex-grow-1 width-40">
-                    <h1>ABOUT ME</h1>
-                    <p>
-                        Website ini merupakan media penyebaran informasi
-                        di bidang peternakan khususnya peternakan kambing kacang,
-                        dengan mengusung misi menyebarkan betapa pentingnya
-                        pengetahuan peternakan dalam beternak kambing kacang.V
-                    </p>
-                </section>
-                <section class="flex-grow-1 width-30">
-                    <h1>FOLLOW US</h1>
-                    <span>
-                        <i class="fab fa-facebook-f" style="font-size: 12px;"></i>
-                        <i class="fab fa-instagram" style="font-size: 12px;"></i>
-                        <i class="fab fa-twitter" style="font-size: 12px;"></i>
-                        <i class="fab fa-youtube" style="font-size: 12px;"></i>
-                    </span>
-                    <hr>
-                    <ul>
-                        <li>Daftar Pustaka</li>
-                        <li>Tentang Kami</li>
-                        <li>FAQ</li>
-                    </ul>
-                </section>
-            </div>
-         </div>
-
-            <!-- <div class="penguat-warna"> -->
-            <div class="footer-copyright flex-grow-1">
-                @Copyright 2020 - KambingKacangKU
-            </div>
-            <!-- </div> -->
-    </footer>
+        <div class="flex-grow-1">
+                <!-- ini footer -->
+                <footer class="flex-coloum text-color-white  c-white ">
+                    <div class="footer-menu flex-grow-1 ">
+                        <div class="flex-row  p-2 pb-3 pr-0 " style="font-family: cursive;">
+                            <figure class="flex-grow-1 width-30 mr-0 mt-5 pt-1">
+                                <img src="Asset/image/logo.png" alt="" class="width-95">
+                            </figure>
+                
+                            <section class="flex-grow-1 width-35 pr-4">
+                                <h1 class="mb-0 mt-2">ABOUT ME</h1>
+                                <p class="mt-1 text-justify">
+                                    Website ini merupakan media penyebaran informasi
+                                    di bidang peternakan khususnya peternakan kambing kacang,
+                                    dengan mengusung misi menyebarkan betapa pentingnya
+                                    pengetahuan peternakan dalam beternak kambing kacang.
+                                </p>
+                            </section>
+                            <section class="flex-grow-1 pl-5 width-20">
+                                <h1 class="mb-0 mt-2 ">FOLLOW US</h1>
+                                <ul class="m-0 pl-0 list-style">
+                                    <li class="pt-1 pb-1"> 
+                                        <i class="fab fa-facebook-f pr-2"></i><span>KambingKacangKu.yahoo.com
+                                    </span></li>
+                                    <li class="pt-1 pb-1"> <i class="fab fa-instagram pr-2"></i><span>KambingKacangKu_Official </span></li>
+                                    <li class="pt-1 pb-1"> <i class="fab fa-twitter pr-2"></i><span>@KambingKacangKu_tweet </span></li>
+                                    <li class="pt-1 pb-1"> <i class="fab fa-youtube pr-2"></i><span>KambingKacangKu_Yt </span></li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                
+                    <!-- <div class="penguat-warna"> -->
+                    <div class="footer-bottom-menu flex-grow-1 p-2 text-content text-left">
+                        <div class="flex-row">
+                            <div class="  flex-grow-1 width-70 pr-4 ">
+                                <p class="m-0  ">
+                                    @Copyright 2020 - KambingKacangKU
+                                </p>
+                            </div>
+                            <div class="flex-grow-1 text-right width-30">
+                                <span class="pl-2 pr-2">Daftar Pustaka</span>
+                                <span class="pl-2 pr-2">Tentang Kami</span>
+                                <span class="pl-2 pr-2 mr-4 " >FAQ</i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                </footer>
+        </div>
+    </div>
 
     <!-- Batas Akhir Footer -->
     <script src="Asset/js/storage.js"></script>

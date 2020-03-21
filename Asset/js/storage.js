@@ -12,4 +12,3 @@
 
     document.getElementById("date").innerHTML = tanggallengkap;
 
-    
