@@ -7,7 +7,8 @@
     <title>KambingKacangKu</title>
 
     <!--load all styles fontawesome -->
-    <link href="Asset/css/header-styles.css" rel="stylesheet">
+    <!-- <link href="Asset/css/header-styles.css" rel="stylesheet"> -->
+    <link href="Asset/css/sass/style.css" rel="stylesheet">
     <link href="Asset/fontawesome-free-web/css/fontawesome.css" rel="stylesheet">
     <link href="Asset/fontawesome-free-web/css/brands.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rancho&display=swap" rel="stylesheet">
@@ -17,7 +18,7 @@
     <!-- ini header -->
     <header style="display: inline;" >
         <div class="flex-row  text-color-white header-top-menu" >
-            <div class="flex-grow-1 width-80">
+            <div class="flex-grow-1 width-80 hidden-content-sm">
 <div class=" flex-grow-1 ml-1">
        <span>
            <i class="fab fa-facebook-f facebook-style p-2" ></i>
@@ -28,19 +29,20 @@
 </div>
             </div>
             
-            <div class="mr-5 flex-grow-1 width-20 pt-2 text-content ">
-                <span id="date" class="float-right font-size-14 pl-1" ></span>
+            <div class="mr-5 flex-grow-1 width-20 pt-2 text-content hidden-content-sm">
+                <span id="date" class="float-right font-size-14 pl-2" ></span>
             </div>
         </div>
 
         <nav class="flex-row navigasi" style="position: sticky;
    top: 0; z-index: 1;">
-            <figure class="m-0 flex-grow-1 width-50 pt-3 pl-4">
+            <figure class="m-0 flex-grow-1 width-40 pt-3 pl-4">
                 <img src="Asset/image/logo.png" alt="" class="width-25">
             </figure>
-            <div class="nav-menu flex-grow-1  width-50 ">
+
+            <div class="nav-menu flex-grow-1 width-60 ml-5  hidden-content-sm ">
                 <ul class="m-0 ml-2 mr-2 pb-2 pt-2" >
-                    <li class=""><a href="#pakan" class="mr-4 ml-5 p-1 text-color-white nav-style font-size-25">Pakan</a></li>
+                    <li class=""><a href="#pakan_hijauan" class="mr-4 ml-5 p-1 text-color-white nav-style font-size-25">Pakan Hijauan</a></li>
                     <li class=""><a href="#kandang" class="mr-4 ml-5 p-1 text-color-white nav-style font-size-25">Kandang</a></li>
                     <li class=""><a href="#penyakit" class="mr-4 ml-5 p-1 text-color-white nav-style font-size-25">Penyakit</a></li>
                     <li class=""><a href="#pencatatan_produksi" class="ml-5 p-1 text-color-white nav-style font-size-25">Pencatatan Produksi</a></li>
@@ -72,22 +74,18 @@
         <div class="flex-grow-1 ">
             <!-- ini main -->
             <main class="flex-row pr-5">
-                <div class="flex-grow-1 ">
-                    <article class="flex-column page  b-radius-10 text-center p-1  b-white  page-shadow-black">
+                <div id="pakan_hijauan" class="flex-grow-1 ">
+
+                    <!--Ini Pakan  Hijauan-->
+                    <article  class="flex-column page  b-radius-10 text-center p-1  b-white  page-shadow-black">
                         <div class="flex-grow-1">
-                            <h1 class="text-header">Pakan</h1>
-                            <ul class="m-0 pt-2">
-                                <li style="list-style: none; display: inline;">Pakan Hijauan</li>
-                                <li style="list-style: none; display: inline;">Pakan Konsentrat</li>
-                            </ul>
-                        </div>
-            
-                        <div class="flex-row">
-                            <section class="flex-grow-1 width-30">
-                                <p>Rumput</p>
+                            <h1 class="text-header">Pakan Hijauan</h1>
+                        <div class="flex-row text-content ">
+                            <section class="flex-grow-1 width-30 pl-5 pr-5 pb-1 text-center">
+                                <h1 >Rumput</h1>
                                 <img src="Asset/image/rumput_gajah.PNG" alt=""
                                     style="width: 180px; height: 170px; border-radius: 100%;">
-                                <div class="content-pakan-rumput">
+                                <div class="">
                                     <p>
                                         Rumput gajah, Rumput
                                         raja,rumput kolonjono, tebu,
@@ -95,11 +93,11 @@
                                     </p>
                                 </div>
                             </section>
-                            <section class="flex-grow-1 width-30">
-                                <p>Daun</p>
+                            <section class="flex-grow-1 width-30 pl-5 pr-5 pb-1 text-center">
+                                <h1>Daun</h1>
                                 <img src="Asset/image/daun_singkong.PNG" alt=""
                                     style="width: 180px; height: 170px; border-radius: 100%;">
-                                <div class="content-pakan-daun">
+                                <div class="">
                                     <p>
                                         Daun Singkong, nangka,
                                         albasia, waru, ketela rambat,
@@ -108,11 +106,11 @@
                                 </div>
             
                             </section>
-                            <section class="flex-grow-1 width-30">
-                                <p>Kacang-Kacangan</p>
+                            <section class="flex-grow-1 width-30 pl-5 pr-5 pb-1 text-center">
+                                <h1>Kacang-Kacangan</h1>
                                 <img src="Asset/image/kacang_panjang.jpg" alt=""
                                     style="width: 180px; height: 170px; border-radius: 100%;">
-                                <div class="content-pakan-kacang-kacangan">
+                                <div class="">
                                     <p>
                                         kacang kedelai, kacang tanah,
                                         kacang hijau, kacang panjang
@@ -126,7 +124,7 @@
             
             
                     <!-- Kandang -->
-                    <article class="flex-coloum page b-green text-color-white p-1">
+                    <article class="flex-colomn page b-green text-color-white p-1" id="kandang">
                         <div class="flex-grow-1">
                             <header>
                                 <h2 class="text-header">Kandang</h2>
@@ -176,7 +174,7 @@
                     </article>
                     <!-- Batas Kandang -->
                     <!-- COba -->
-                    <article class="page flex-column b-white p-1  page-shadow-black">
+                    <article class="page flex-column b-white p-1  page-shadow-black" id="penyakit">
                         <div class="flex-grow-1">
                             <h1 class="text-header">Penyakit</h1>
                             <ul>
@@ -187,7 +185,7 @@
                     </article>
                     <!-- batas coba -->
                     <!-- Pencatatan Produksi -->
-                    <article class="page text-center flex-column p-1 b-green text-color-white">
+                    <article class="page text-center flex-column p-1 b-green text-color-white" id="pencatatan_produksi">
                         <header class="flex-grow-1">
                             <h1 class="text-header">Pencatatan Produksi</h1>
                         </header>
@@ -211,7 +209,7 @@
             
                 <div class="flex-grow-1 ml-3 width-70 text-content">
                     <aside class="page page-shadow-black text-center ">
-                        <article class="flex-coloum page b-white  pl-2 pr-2 pb-2  ">
+                        <article class="flex-colomn page b-white  pl-2 pr-2 pb-2  ">
                             <figure class="flex-grow-1 m-0 pt-3 ">
                                 <img src="Asset/image/profil2.jpg" alt="" class="img-rounded" style="height: 200px;" >
                                 <caption>
@@ -223,7 +221,7 @@
                                 </caption>
                             </figure>
                             <section class="flex-grow-1 text-left  pl-3 font-size-14  ">
-                                <h1 class="mb-1 mt-1">Profile</h1>
+                                <h1 class="mb-0 mt-1">Profile</h1>
                                 <table>
                                     <tr>
                                         <td>kota lahir</td>
@@ -262,10 +260,10 @@
 
         <div class="flex-grow-1">
                 <!-- ini footer -->
-                <footer class="flex-coloum text-color-white  c-white ">
+                <footer class="flex-colomn text-color-white  c-white ">
                     <div class="footer-menu flex-grow-1 ">
                         <div class="flex-row  p-2 pb-3 pr-0 " style="font-family: cursive;">
-                            <figure class="flex-grow-1 width-30 mr-0 mt-5 pt-1">
+                            <figure class="flex-grow-1 width-30 mr-0 mt-5 pt-1 hidden-content-sm">
                                 <img src="Asset/image/logo.png" alt="" class="width-95">
                             </figure>
                 
@@ -295,12 +293,12 @@
                     <!-- <div class="penguat-warna"> -->
                     <div class="footer-bottom-menu flex-grow-1 p-2 text-content text-left">
                         <div class="flex-row">
-                            <div class="  flex-grow-1 width-70 pr-4 ">
+                            <div class="  flex-grow-1 width-70 pr-4 hidden-content-sm">
                                 <p class="m-0  ">
                                     @Copyright 2020 - KambingKacangKU
                                 </p>
                             </div>
-                            <div class="flex-grow-1 text-right width-30">
+                            <div class="flex-grow-1 text-right width-30  hidden-content-sm">
                                 <span class="pl-2 pr-2">Daftar Pustaka</span>
                                 <span class="pl-2 pr-2">Tentang Kami</span>
                                 <span class="pl-2 pr-2 mr-4 " >FAQ</i>

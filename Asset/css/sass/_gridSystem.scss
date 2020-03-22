@@ -1,0 +1,170 @@
+.page {
+    border-radius: 10px;
+}
+
+
+// ini Flex box
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.flex-colomn{
+    display: flex;
+    flex-direction: column;
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-grow-1{
+    flex-grow: 1;
+}
+// batas Flex box
+
+// ini Float
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+// batas Float
+
+// ini batas width
+@for $i from 2 through 20 {
+    $kali: $i * 10;
+    $bagi: $kali / 2;
+    $persent: $bagi * 1%;
+    // $counter : 10;
+    //   $i :  $i + 10;
+    .width-#{$bagi},
+        {
+       width: $persent;
+    }
+}
+// batas width
+
+// ini padding
+@for $i from 0 to 6 {
+      $nilaiPaddingMargin: $i * 5px;
+
+    .p-#{$i} {
+        padding: $nilaiPaddingMargin;
+    }
+    .pt-#{$i}{
+        padding-top: $nilaiPaddingMargin;
+    }
+    .pr-#{$i}{
+        padding-right: $nilaiPaddingMargin;
+    }
+    .pb-#{$i}{
+        padding-bottom: $nilaiPaddingMargin;
+    }
+    .pl-#{$i}{
+        padding-left: $nilaiPaddingMargin;
+    }
+// batas Padding
+// Ini Margin
+    .m-#{$i} {
+        margin: $nilaiPaddingMargin;
+    }
+    .mt-#{$i}{
+        margin-top: $nilaiPaddingMargin;
+    }
+    .mr-#{$i}{
+        margin-right: $nilaiPaddingMargin;
+    }
+    .mb-#{$i}{
+        padding-bottom: $nilaiPaddingMargin;
+    }
+    .ml-#{$i}{
+        margin-left: $nilaiPaddingMargin;
+    }
+}
+// Batas Margin
+
+ @media screen and (max-width: 600px) {
+
+    .page {
+    border-radius: 10px;
+}
+
+
+// ini Flex box
+
+.flex-colomn ,
+.flex-row {
+    display: flex;
+    flex-direction: column;
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-grow-1{
+    flex-grow: 1;
+}
+// batas Flex box
+
+// ini Float
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+// batas Float
+
+    @for $i from 2 through 20 {
+        $kali: $i * 10;
+        $bagi: $kali / 2;
+        $persent: $bagi * 1%;
+
+        .width-#{$bagi},
+            {
+            width: $persent;
+        }
+    }
+
+   @for $i from 0 to 6 {
+       $nilaiPaddingMargin: $i * 1.6px;
+
+       .p-#{$i} {
+           padding: $nilaiPaddingMargin;
+       }
+       .pt-#{$i} {
+           padding-top: $nilaiPaddingMargin;
+       }
+       .pr-#{$i} {
+           padding-right: $nilaiPaddingMargin;
+       }
+       .pb-#{$i} {
+           padding-bottom: $nilaiPaddingMargin;
+       }
+       .pl-#{$i} {
+           padding-left: $nilaiPaddingMargin;
+       }
+
+       // batas Padding
+       // Ini Margin
+       .m-#{$i} {
+           margin: $nilaiPaddingMargin;
+       }
+       .mt-#{$i} {
+           margin-top: $nilaiPaddingMargin;
+       }
+       .mr-#{$i} {
+           margin-right: $nilaiPaddingMargin;
+       }
+       .mb-#{$i} {
+           padding-bottom: $nilaiPaddingMargin;
+       }
+       .ml-#{$i} {
+           margin-left: $nilaiPaddingMargin;
+       }
+   }
+ }
