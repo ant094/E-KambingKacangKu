@@ -113,6 +113,10 @@ li a .nav-font {
   margin-top: 10px;
 }
 
+.hidden-content-lg {
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
   .hidden-content-sm {
     display: none;
@@ -909,5 +913,15 @@ li a .nav-font {
 
 .list-style {
   list-style: none;
+}
+
+.tabel-penyakit th,
+.tabel-penyakit td {
+  border-bottom: 1px solid #999;
+  padding-bottom: 5px;
+}
+
+.page-rounded {
+  border: 1px solid black;
 }
 /*# sourceMappingURL=style.css.map */

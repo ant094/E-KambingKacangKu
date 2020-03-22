@@ -72,7 +72,9 @@ li {
     margin-bottom: 0px;
     margin-top: 10px;
 }
-
+ .hidden-content-lg {
+     display: none;
+ }
 @media screen and (max-width: 600px) {
 
     .hidden-content-sm{

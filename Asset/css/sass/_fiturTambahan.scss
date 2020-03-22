@@ -61,7 +61,17 @@
     text-align: justify;
     font-family: cursive;
 }
-
 .list-style {
     list-style: none;
+}
+
+
+ .tabel-penyakit th,
+ .tabel-penyakit td {
+    border-bottom: 1px solid #999;
+    padding-bottom: 5px;
+}
+
+.page-rounded{
+    border: 1px solid black;
 }
