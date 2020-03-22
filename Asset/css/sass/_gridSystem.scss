@@ -88,7 +88,7 @@
  @media screen and (max-width: 600px) {
 
     .page {
-    border-radius: 10px;
+    border-radius: 0px;
 }
 
 
@@ -107,6 +107,7 @@
 
 .flex-grow-1{
     flex-grow: 1;
+    width: 100%;
 }
 // batas Flex box
 
@@ -124,7 +125,7 @@
         $bagi: $kali / 2;
         $persent: $bagi * 1%;
 
-        .width-#{$bagi},
+        .width-sm-#{$bagi},
             {
             width: $persent;
         }
