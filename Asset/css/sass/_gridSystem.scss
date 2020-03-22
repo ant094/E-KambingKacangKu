@@ -77,7 +77,7 @@
         margin-right: $nilaiPaddingMargin;
     }
     .mb-#{$i}{
-        padding-bottom: $nilaiPaddingMargin;
+        margin-bottom: $nilaiPaddingMargin;
     }
     .ml-#{$i}{
         margin-left: $nilaiPaddingMargin;
@@ -134,37 +134,37 @@
    @for $i from 0 to 6 {
        $nilaiPaddingMargin: $i * 1.6px;
 
-       .p-#{$i} {
+       .p-sm-#{$i} {
            padding: $nilaiPaddingMargin;
        }
-       .pt-#{$i} {
+       .pt-sm-#{$i} {
            padding-top: $nilaiPaddingMargin;
        }
-       .pr-#{$i} {
+       .pr-sm-#{$i} {
            padding-right: $nilaiPaddingMargin;
        }
-       .pb-#{$i} {
+       .pb-sm-#{$i} {
            padding-bottom: $nilaiPaddingMargin;
        }
-       .pl-#{$i} {
+       .pl-sm-#{$i} {
            padding-left: $nilaiPaddingMargin;
        }
 
        // batas Padding
        // Ini Margin
-       .m-#{$i} {
+       .m-sm-#{$i} {
            margin: $nilaiPaddingMargin;
        }
-       .mt-#{$i} {
+       .mt-sm-#{$i} {
            margin-top: $nilaiPaddingMargin;
        }
-       .mr-#{$i} {
+       .mr-sm-#{$i} {
            margin-right: $nilaiPaddingMargin;
        }
-       .mb-#{$i} {
-           padding-bottom: $nilaiPaddingMargin;
+       .mb-sm-#{$i} {
+           margin-bottom: $nilaiPaddingMargin;
        }
-       .ml-#{$i} {
+       .ml-sm-#{$i} {
            margin-left: $nilaiPaddingMargin;
        }
    }

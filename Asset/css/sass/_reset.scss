@@ -18,20 +18,23 @@ a {
  @media screen and (max-width: 600px) {
    * {
        box-sizing: border-box;
+      
    }
 body {
     margin: 0px;
     padding: 0px;
-    overflow-x: auto;
+   overflow-x: hidden;
     background-color: #39ac4129;
 }
 
 main {
     padding: 10px 0px;
+     overflow: auto;
 }
 
 header {
     background-color: #58b85d;
+     
 }
 
 a {
