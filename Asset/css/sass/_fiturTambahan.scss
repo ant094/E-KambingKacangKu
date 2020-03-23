@@ -29,7 +29,7 @@
     text-align: justify;
 }
 
-@for $i from 10 to 31 {
+@for $i from 0 to 31 {
 
     $font-size: $i * 1px;
 
@@ -56,6 +56,18 @@
     list-style: none;
 }
 
+tr.tabel-penyakit td:first{
+    width: 10%;
+}
+tr.tabel-penyakit td:nth-child(2){
+    width: 20%;
+}
+tr.tabel-penyakit td:nth-child(3){
+    width: 30%;
+}
+tr.tabel-penyakit td:last-child{
+    width: 40%;
+}
 
  .tabel-penyakit th,
  .tabel-penyakit td {
@@ -66,13 +78,37 @@
 .page-rounded{
     border: 1px solid black;
 }
+@media screen and  (min-width: 600px) and  (max-width: 1000px) {
+    .hidden-content-md {
+        display: none;
+    }
+
+    @for $i from 1 to 31 {
+
+        $font-size: $i * 1px;
+
+        .font-size-md-#{$i} {
+            font-size: $font-size;
+        }
+    }
+
+    .text-center-md {
+        text-align: center;
+    }
+
+    .text-content {
+        text-align: justify;
+        font-family: cursive;
+        font-size: 22px;
+    }
+}
 
 @media screen and (max-width: 600px) {
       .hidden-content-sm {
           display: none;
       }
 
-  @for $i from 10 to 31 {
+  @for $i from 1 to 31 {
 
       $font-size: $i * 1px;
 
@@ -83,5 +119,6 @@
 .text-center-sm{
     text-align: center;
 }
+
    }
  

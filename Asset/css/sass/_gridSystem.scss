@@ -85,6 +85,82 @@
 }
 // Batas Margin
 
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+    .page {
+        border-radius: 0px;
+    }
+
+    // ini Flex box
+    .flex-colomn,
+    .flex-center,
+    .flex-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-grow-1 {
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    // batas Flex box
+
+    @for $i from 2 through 20 {
+        $kali: $i * 10;
+        $bagi: $kali / 2;
+        $persent: $bagi * 1%;
+
+        .width-md-#{$bagi} {
+            width: $persent;
+        }
+    }
+
+    @for $i from 0 to 6 {
+        $nilaiPaddingMargin: $i * 5px;
+
+        .p-md-#{$i} {
+            padding: $nilaiPaddingMargin;
+        }
+
+        .pt-md-#{$i} {
+            padding-top: $nilaiPaddingMargin;
+        }
+
+        .pr-md-#{$i} {
+            padding-right: $nilaiPaddingMargin;
+        }
+
+        .pb-md-#{$i} {
+            padding-bottom: $nilaiPaddingMargin;
+        }
+
+        .pl-md-#{$i} {
+            padding-left: $nilaiPaddingMargin;
+        }
+
+        // batas Padding
+        .m-md-#{$i} {
+            margin: $nilaiPaddingMargin;
+        }
+
+        .mt-md-#{$i} {
+            margin-top: $nilaiPaddingMargin;
+        }
+
+        .mr-md-#{$i} {
+            margin-right: $nilaiPaddingMargin;
+        }
+
+        .mb-md-#{$i} {
+            margin-bottom: $nilaiPaddingMargin;
+        }
+
+        .ml-md-#{$i} {
+            margin-left: $nilaiPaddingMargin;
+        }
+    }
+}
+
  @media screen and (max-width: 600px) {
     .page {
     border-radius: 0px;
@@ -101,7 +177,6 @@
     flex-grow: 1;
     width: 100%;
 }
-// batas Flex box
 
     @for $i from 2 through 20 {
         $kali: $i * 10;
@@ -132,9 +207,7 @@
        .pl-sm-#{$i} {
            padding-left: $nilaiPaddingMargin;
        }
-
        // batas Padding
-       // Ini Margin
        .m-sm-#{$i} {
            margin: $nilaiPaddingMargin;
        }
