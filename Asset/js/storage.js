@@ -1,78 +1,65 @@
-    var tanggallengkap = new String();
-    var namahari = ("Minggu Senin Selasa Rabu Kamis Jumat Sabtu");
-    namahari = namahari.split(" ");
-    var namabulan = ("Januari Februari Maret April Mei Juni Juli Agustus September Oktober November Desember");
-    namabulan = namabulan.split(" ");
-    var tgl = new Date();
-    var hari = tgl.getDay();
-    var tanggal = tgl.getDate();
-    var bulan = tgl.getMonth();
-    var tahun = tgl.getFullYear();
-    tanggallengkap = namahari[hari] + ", " +tanggal + " " + namabulan[bulan] + " " + tahun;
+    // Code dibawah ini digunakan untuk memanipulasi tgl pada nav
+    let arrayHari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
+    let arrayBulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
+    let tgl = new Date();
+    let hari = tgl.getDay();
+    let tanggal = tgl.getDate();
+    let bulan = tgl.getMonth();
+    let tahun = tgl.getFullYear();
+    let tanggallengkap = arrayHari[hari] + ", " +tanggal + " " + arrayBulan[bulan] + " " + tahun;
 
     document.getElementById("date").innerHTML = tanggallengkap;
+    document.getElementById("year").innerHTML = tahun;
 
 
-let page1 = document.getElementById('page1');
-let page2 = document.getElementById('page2');
-let page3 = document.getElementById('page3');
-
-
-for (let i = 1; i < 10; i++) {
-    let penyakit = 'penyakit'+i;
-     penyakit = document.getElementById(penyakit);    
-}
-penyakit1.style.display = 'table-row';
-penyakit2.style.display = 'table-row';
-penyakit3.style.display = 'table-row';
-penyakit4.style.display = 'none';
-penyakit5.style.display = 'none';
-penyakit6.style.display = 'none';
-penyakit7.style.display = 'none';
-penyakit8.style.display = 'none';
-penyakit9.style.display = 'none';
-
-function pageA() {
-    
-    penyakit1.style.display = 'table-row';
-    penyakit2.style.display = 'table-row';
-    penyakit3.style.display = 'table-row';
-    penyakit4.style.display = 'none';
-    penyakit5.style.display = 'none';
-    penyakit6.style.display = 'none';
-    penyakit7.style.display = 'none';
-    penyakit8.style.display = 'none';
-    penyakit9.style.display = 'none';
-}
-function pageB() {
-    penyakit1.style.display = 'none';
-    penyakit2.style.display = 'none';
-    penyakit3.style.display = 'none';
-    penyakit4.style.display = 'table-row';
-    penyakit5.style.display = 'table-row';
-    penyakit6.style.display = 'table-row';
-    penyakit7.style.display = 'none';
-    penyakit8.style.display = 'none';
-    penyakit9.style.display = 'none';
-}
-    function pageC() {
-   
-
-
-        penyakit1.style.display = 'none';
-        penyakit2.style.display = 'none';
-        penyakit3.style.display = 'none';
-        penyakit4.style.display = 'none';
-        penyakit5.style.display = 'none';
-        penyakit6.style.display = 'none';
-        penyakit7.style.display = 'table-row';
-        penyakit8.style.display = 'table-row';
-        penyakit9.style.display = 'table-row';
+    // Code dibawah ini digunakan untuk memanipulasi tabel penyakit
+    // Terkusus pada button page 1, page 2, dan page 3
+ for (let i = 1; i <= 9; i++) {
+    penyakit = "penyakit"+i;
+    document.getElementById(penyakit).style.display = 'none';
+    if( i <= 3 ){
+    document.getElementById(penyakit).style.display = 'table-row';
     }
+ }
+ 
 
-   
+page1.addEventListener("click", function page1() {
+            for (let i = 1; i <= 9; i++) {
+                penyakit = "penyakit" + i;
+                document.getElementById(penyakit).style.display = 'none';
+                if (i <= 3) {
+                    document.getElementById(penyakit).style.display = 'table-row';
+                }
+            }
+            document.getElementById('page1').classList = 'ml-2 mr-2 b-white p-2 img-rounded page-rounded';
+            document.getElementById('page2').classList = 'ml-2 mr-2 b-green p-2 img-rounded page-rounded';
+             document.getElementById('page3').classList = 'ml-2 mr-2 b-green p-2 img-rounded page-rounded';
+        }
+);
 
-page1.addEventListener("click", pageA);
-page2.addEventListener("click", pageB);
-page3.addEventListener("click", pageC);
+page2.addEventListener("click", function page2() {
+    for (let i = 1; i <= 9; i++) {
+        penyakit = "penyakit" + i;
+        document.getElementById(penyakit).style.display = 'none';
+        if (i >= 4 && i <= 6) {
+            document.getElementById(penyakit).style.display = 'table-row';
+        }
+    }
+        document.getElementById('page1').classList = 'ml-2 mr-2 b-green p-2 img-rounded page-rounded';
+        document.getElementById('page2').classList = 'ml-2 mr-2 b-white p-2 img-rounded page-rounded';
+        document.getElementById('page3').classList = 'ml-2 mr-2 b-green p-2 img-rounded page-rounded';
+});
+
+page3.addEventListener("click", function page3() {
+    for (let i = 1; i <= 9; i++) {
+        penyakit = "penyakit" + i;
+        document.getElementById(penyakit).style.display = 'none';
+        if (i >= 7) {
+            document.getElementById(penyakit).style.display = 'table-row';
+        }
+    }
+    document.getElementById('page1').classList = 'ml-2 mr-2 b-green p-2 img-rounded page-rounded';
+    document.getElementById('page2').classList = 'ml-2 mr-2 b-green p-2 img-rounded page-rounded';
+    document.getElementById('page3').classList = 'ml-2 mr-2 b-white p-2 img-rounded page-rounded';
+});
 
