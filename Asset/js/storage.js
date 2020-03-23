@@ -22,6 +22,16 @@ for (let i = 1; i < 10; i++) {
     let penyakit = 'penyakit'+i;
      penyakit = document.getElementById(penyakit);    
 }
+penyakit1.style.display = 'table-row';
+penyakit2.style.display = 'table-row';
+penyakit3.style.display = 'table-row';
+penyakit4.style.display = 'none';
+penyakit5.style.display = 'none';
+penyakit6.style.display = 'none';
+penyakit7.style.display = 'none';
+penyakit8.style.display = 'none';
+penyakit9.style.display = 'none';
+
 function pageA() {
     
     penyakit1.style.display = 'table-row';

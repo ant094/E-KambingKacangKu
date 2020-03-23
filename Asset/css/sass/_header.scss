@@ -60,7 +60,6 @@ li {
 
 .header-jumbotron-content {
     padding-top: 145px;
-    font-size: 17px;
     font-family: cursive;
 }
 /* Batas Jumbotron */
@@ -72,14 +71,97 @@ li {
     margin-bottom: 0px;
     margin-top: 10px;
 }
- .hidden-content-lg {
-     display: none;
- }
+
 @media screen and (max-width: 600px) {
 
-    .hidden-content-sm{
-        display: none;
-    }
+  
+ .header-top-menu {
+     /* background-color: #2ba733ab; */
+     background-color: #2ba733eb;
+     box-shadow: -4px 2px 5px black;
+ }
+
+ .navigasi {
+     /* background-color: #2ba733ad; */
+     background-color: #2ba733eb;
+ }
+
+ //  nav
+ // kanan
+ #date {
+     border-left: 1px solid #ffffff;
+ }
+
+ //  kiri
+ li {
+     a {
+         .nav-font {
+             font-family: 'Rancho', cursive;
+         }
+     }
+ }
+
+ .nav-style {
+     font-family: 'Rancho', cursive;
+
+ }
+
+ .nav-style:hover {
+     border-bottom: 1px dashed #ffffff;
+     border-top: 1px dashed #ffffff;
+ }
+
+ .nav-menu.flex-grow-1 {
+     margin-right: 20px;
+ }
+
+ .nav-menu ul li {
+     display: inline;
+ }
+
+ /* Social Media */
+ .facebook-style:hover {
+     background: #395794;
+ }
+
+ .instagram-style:hover {
+     background: #ec38bc;
+ }
+
+ .twitter-style:hover {
+     background: #1d9dec;
+ }
+
+ .youtube-style:hover {
+     background: #f80000;
+ }
+
+ /* Jumbotron */
+ .header-jumbotron {
+     background: #39ac41;
+ }
+
+ .header-jumbotron-content {
+     padding-top: 0px;
+     font-size: 15px;
+     font-family: cursive;
+ }
+
+ /* Batas Jumbotron */
+
+ .text-header {
+     text-align: center;
+     font-family: 'Rancho', cursive;
+     font-size: 30px;
+     margin-bottom: 0px;
+     margin-top: 10px;
+ }
+
+
+}
+@media screen and (max-width: 1000px) {
+
+  
  .header-top-menu {
      /* background-color: #2ba733ab; */
      background-color: #2ba733eb;

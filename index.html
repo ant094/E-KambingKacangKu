@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KambingKacangKu</title>
-
     <!--load all styles fontawesome -->
     <!-- <link href="Asset/css/header-styles.css" rel="stylesheet"> -->
     <link href="Asset/css/sass/style.css" rel="stylesheet">
@@ -16,9 +15,9 @@
 
 <body >
     <!-- ini header -->
-    <header style="display: inline;" >
+    <header  class="">
         <div class="flex-row  text-color-white header-top-menu" >
-            <div class="flex-grow-1  hidden-content-sm">
+            <div class="flex-grow-1  hidden-content-sm hidden-content-md">
 <div class=" flex-grow-1 ml-1">
        <span>
            <i class="fab fa-facebook-f facebook-style p-2" ></i>
@@ -29,30 +28,30 @@
 </div>
             </div>
             
-            <div class="mr-5 flex-grow-1 width-20 pt-2 text-content hidden-content-sm">
+            <div class="mr-5 flex-grow-1 width-20 pt-2 text-content hidden-content-sm hidden-content-md">
                 <span id="date" class="float-right font-size-14 pl-2" ></span>
             </div>
         </div>
 
         <nav class="flex-row navigasi " style="position: sticky;
    top: 0; z-index: 1;">
-            <figure class="m-0 flex-grow-1 width-40 pt-2  pl-4 text-center-sm ">
+            <figure class="m-0 flex-grow-1 width-40 width-md-100 pt-2  pl-4 text-center-sm ">
                 <img src="Asset/image/logo.png" alt="" class="width-sm-50 width-25">
             </figure>
 
-            <div class="nav-menu flex-grow-1 width-60 ml-5  hidden-content-sm ">
+            <div class="nav-menu flex-grow-1 width-60 width-md-100 ml-5 ml-md-0  hidden-content-sm ">
                 <ul class="m-0 ml-2 mr-2 pb-2 pt-2" >
-                    <li class=""><a href="#pakan_hijauan" class="mr-4 ml-5 p-1 text-color-white nav-style font-size-25">Pakan Hijauan</a></li>
-                    <li class=""><a href="#kandang" class="mr-4 ml-5 p-1 text-color-white nav-style font-size-25">Kandang</a></li>
-                    <li class=""><a href="#penyakit" class="mr-4 ml-5 p-1 text-color-white nav-style font-size-25">Penyakit</a></li>
-                    <li class=""><a href="#pencatatan_produksi" class="ml-5 p-1 text-color-white nav-style font-size-25">Pencatatan Produksi</a></li>
+                    <li class=""><a href="#pakan_hijauan" class="mr-4 ml-5 p-1 text-color-white nav-style font-size-25 font-size-md-28">Pakan Hijauan</a></li>
+                    <li class=""><a href="#kandang" class="mr-4 ml-5 p-1 text-color-white nav-style font-size-25 font-size-md-28">Kandang</a></li>
+                    <li class=""><a href="#penyakit" class="mr-4 ml-5 p-1 text-color-white nav-style font-size-25 font-size-md-28">Penyakit</a></li>
+                    <li class=""><a href="#pencatatan_produksi" class="ml-5 p-1 text-color-white nav-style font-size-25 font-size-md-28">Pencatatan Produksi</a></li>
                 </ul>
             </div>
         </nav>
 
-        <article id="header-jumbotron" class="flex-center header-jumbotron pl-2 pr-2">
-            <div class="flex-row width-65  pb-2 pt-5">
-                <div class="header-jumbotron-content text-color-white text-justify ">
+        <article class="flex-center header-jumbotron pl-2 pr-2 font-size-sm-15 pt-sm-4">
+            <div class="flex-row width-65 width-sm-100  pb-2 pt-5 pl-sm-2 pr-sm-2">
+                <div class="flex-grow-1 header-jumbotron-content text-color-white text-justify ">
                     <p class="m-0" >
                         Kambing Kacang adalah rumpun kambing lokal
                         yang persebarannya paling luas dan paling banyak
@@ -62,7 +61,7 @@
                         hanya 55–60 cm dan bobotnya 20-30 kg.
                     </p>
                 </div>
-                  <figure class="m-0">
+                  <figure class="flex-grow-1 m-0">
                         <img src="Asset/image/kambing_kacang.png" alt="" class="pt-5 width-100">
                   </figure>
             </div>
@@ -72,8 +71,9 @@
 
     <div class="flex-column ">
         <div class="flex-grow-1 ">
+
             <!-- ini main -->
-            <main class="flex-row ">
+            <main class="flex-row pb-sm-0 pt-sm-0">
                 <div id="pakan_hijauan" class="flex-grow-1 ">
 
                     <!--Ini Pakan  Hijauan-->
@@ -128,14 +128,14 @@
                             <header>
                                 <h2 class="text-header">Kandang</h2>
                             </header>
-                            <p class="text-content pl-5 pr-5 m-0">
+                            <p class="text-content pl-5 pr-5 pl-sm-5 pr-sm-5  m-0">
                                 Beternak kambing membutuhkan kandang sebagai tempat tinggal.
                                 Berikut beberapa kriteria yang harus dipenuhi untuk membuat kandang
                                 kambing yang baik.
                             </p>
                         </div>
                         <div class="flex-grow-1">
-                            <div class="flex-row pl-4 pr-4">
+                            <div class="flex-row pl-4 pr-4 pl-sm-5 pr-sm-5 ">
                                 <div class="flex-grow-1 width-50 pt-3">
                                     <!-- <figure class="m-0"> -->
                                     <img src="Asset/image/kandang_kambing.png" class="width-100" alt="">
@@ -337,7 +337,7 @@
                             <h1 class="text-header">Pencatatan Produksi</h1>
                         </header>
                         <div class="flex-row text-justify pencatatan-produksi2">
-                            <div class="flex-grow-1  width-60 pl-5">
+                            <div class="flex-grow-1  width-60 pl-5 pl-sm-5 pr-sm-5">
                                 <p>Kegiatan pencatatan pada kartu produksi mengenai berat kambing
                                     merupakan proses rutin pengumpulan dan pengukuran perkembangan
                                     serta memantau perubahan yang terjadi pada kambing tiap bulannya.
@@ -407,10 +407,10 @@
 
         <div class="flex-grow-1">
                 <!-- ini footer -->
-                <footer class="flex-colomn text-color-white  c-white hidden-content-sm ">
+                <footer class="flex-colomn text-color-white  c-white  ">
                     <div class="footer-menu flex-grow-1 ">
                         <div class="flex-row  p-2 pb-3 pr-0 " style="font-family: cursive;">
-                            <figure class="flex-grow-1 width-30 mr-0 mt-5 pt-1 hidden-content-sm">
+                            <figure class="flex-grow-1 width-30 mr-0 mt-5 pt-1 hidden-content-sm hidden-content-md">
                                 <img src="Asset/image/logo.png" alt="" class="width-95">
                             </figure>
                 
@@ -438,14 +438,14 @@
                     </div>
                 
                     <!-- <div class="penguat-warna"> -->
-                    <div class="footer-bottom-menu flex-grow-1 p-2 text-content text-left">
+                    <div class="footer-bottom-menu flex-grow-1 p-2 text-content text-left hidden-content-sm">
                         <div class="flex-row">
-                            <div class="  flex-grow-1 width-70 pr-4 hidden-content-sm">
+                            <div class="  flex-grow-1 width-70 pr-4 ">
                                 <p class="m-0  ">
                                     @Copyright 2020 - KambingKacangKU
                                 </p>
                             </div>
-                            <div class="flex-grow-1 text-right width-30  hidden-content-sm">
+                            <div class="flex-grow-1 text-right width-30 ">
                                 <span class="pl-2 pr-2">Daftar Pustaka</span>
                                 <span class="pl-2 pr-2">Tentang Kami</span>
                                 <span class="pl-2 pr-2 mr-4 " >FAQ</i>
