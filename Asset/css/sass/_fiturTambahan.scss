@@ -1,5 +1,7 @@
 /* Style Untuk Mengatur Background */
-
+.display-inline{
+    display: inline;
+}
 // ini background
 .b-green {
     background-color: #3aad41d1;
@@ -69,37 +71,6 @@
       .hidden-content-sm {
           display: none;
       }
-   // ini background
-   .b-green {
-       background-color: #3aad41d1;
-   }
-
-   .b-white {
-       background-color: #ffffff;
-   }
-
-   // ini batas background
-
-   .text-color-white {
-       color: #ffffff;
-   }
-
-   // ini font-size
-   .text-center-sm {
-       text-align: center;
-   }
-
-   .text-left {
-       text-align: left;
-   }
-
-   .text-right {
-       text-align: right;
-   }
-
-   .text-justify {
-       text-align: justify;
-   }
 
   @for $i from 10 to 31 {
 
@@ -109,110 +80,8 @@
           font-size: $font-size;
       }
   }
-
-
-   //Batas Font-size
-   .img-rounded {
-       border-radius: 100%;
-   }
-
-   .page-shadow-black {
-       box-shadow: 0px 1px 5px #000000b8;
-   }
-
-   .text-content {
-       text-align: justify;
-       font-family: cursive;
-   }
-
-   .list-style {
-       list-style: none;
-   }
-
-
-   .tabel-penyakit th,
-   .tabel-penyakit td {
-       border-bottom: 1px solid #999;
-       padding-bottom: 5px;
-   }
-
-   .page-rounded {
-       border: 1px solid black;
+.text-center-sm{
+    text-align: center;
+}
    }
  
-}
-
-@media screen and (max-width: 1000px) {
-      .hidden-content-md {
-          display: none;
-      }
-   // ini background
-   .b-green {
-       background-color: #3aad41d1;
-   }
-
-   .b-white {
-       background-color: #ffffff;
-   }
-
-   // ini batas background
-   .text-color-white {
-       color: #ffffff;
-   }
-
-   // ini font-size
-   .text-center-sm {
-       text-align: center;
-   }
-
-   .text-left {
-       text-align: left;
-   }
-
-   .text-right {
-       text-align: right;
-   }
-
-   .text-justify {
-       text-align: justify;
-   }
-
-  @for $i from 10 to 31 {
-
-      $font-size: $i * 1px;
-
-      .font-size-md-#{$i} {
-          font-size: $font-size;
-      }
-  }
-
-   //Batas Font-size
-   .img-rounded {
-       border-radius: 100%;
-   }
-
-   .page-shadow-black {
-       box-shadow: 0px 1px 5px #000000b8;
-   }
-
-   .text-content {
-       text-align: justify;
-       font-family: cursive;
-   }
-
-   .list-style {
-       list-style: none;
-   }
-
-
-   .tabel-penyakit th,
-   .tabel-penyakit td {
-       border-bottom: 1px solid #999;
-       padding-bottom: 5px;
-   }
-
-   .page-rounded {
-       border: 1px solid black;
-   }
- 
-}
