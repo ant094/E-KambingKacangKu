@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,6 +21,9 @@
 <body>
     <!-- ini header -->
     <header class="display-inline">
+
+        <!-- ini Header Top Menu -->
+        <!-- ini Media Social Pada Header Top Menu -->
         <div class="flex-row  text-color-white header-top-menu">
             <div class="flex-grow-1  hidden-content-sm hidden-content-md">
                 <div class=" flex-grow-1 ml-1">
@@ -34,39 +36,51 @@
                 </div>
             </div>
 
+            <!-- ini Informasi Tanggal Pada Header Top Menu -->
             <div class="mr-5 flex-grow-1 width-20 pt-2 text-content hidden-content-sm hidden-content-md">
                 <span id="date" class="float-right font-size-14 pl-2"></span>
             </div>
         </div>
+        <!-- Batas Header Top Menu -->
 
-        <nav class="flex-row navigasi " style="position: sticky;   top: 0; z-index: 1;">
-            <figure class="m-0 flex-grow-1 width-30 width-md-100 pt-2  pl-4 text-center-sm text-center-md pl-md-0 ">
+        <!-- ini Navigasi -->
+        <nav class="flex-row navigasi">
+            <!-- Ini Gambar Logo Websote-->
+            <figure class="flex-grow-1 width-30 width-md-100 pt-2 pl-4 text-center-sm text-center-md pl-md-0 m-0">
                 <img src="Asset/image/logo.png" alt="" class="width-sm-50 width-40">
             </figure>
 
-            <div class="nav-menu flex-grow-1 width-70 width-md-100 ml-5 ml-md-0  hidden-content-sm hidden-content-md ">
+            <!-- ini Navigasi Menu -->
+            <div class="flex-grow-1 width-70 width-md-100 ml-5 ml-md-0  hidden-content-sm hidden-content-md ">
                 <ul class="m-0 ml-2 mr-2 pb-2 pt-2 ml-md-0 pl-md-0 font-size-md-10">
-                    <li class=""><a href="#pakan_hijauan"
+                    <li class="display-inline">
+                        <a href="#pakan_hijauan"
                             class="mr-4 ml-5 p-1 text-color-white nav-style font-size-25 font-size-md-28">Pakan
                             Hijauan</a></li>
-                    <li class=""><a href="#kandang"
+                    <li class="display-inline">
+                        <a href="#kandang"
                             class="mr-4 ml-5 p-1 text-color-white nav-style font-size-25 font-size-md-28">Kandang</a>
                     </li>
-                    <li class=""><a href="#penyakit"
+                    <li class="display-inline">
+                        <a href="#penyakit"
                             class="mr-4 ml-5 p-1 text-color-white nav-style font-size-25 font-size-md-28">Penyakit</a>
                     </li>
-                    <li class=""><a href="#pencatatan_produksi"
+                    <li class="display-inline">
+                        <a href="#pencatatan_produksi"
                             class="ml-5 p-1 text-color-white nav-style font-size-25 font-size-md-28">Pencatatan
                             Produksi</a></li>
                 </ul>
             </div>
         </nav>
+        <!-- Batas Navigasi -->
 
+        <!-- ini Jumbotron -->
         <article class="flex-center header-jumbotron pl-2 pr-2 font-size-sm-15 pt-sm-2 ">
             <div class="flex-row width-65 width-sm-100 width-md-100 pl-md-5 pr-md-5 pb-2 pt-5 pl-sm-2 pr-sm-2">
+                 <!-- Ini Header Jumbotron Left -->
                 <div
                     class="flex-grow-1 header-jumbotron-content text-color-white text-justify font-size-md-25 font-size-18 font-size-sm-15">
-                    <p class="m-0 ">
+                    <p >
                         Kambing Kacang adalah rumpun kambing lokal
                         yang persebarannya paling luas dan paling banyak
                         diternakkan di Indonesia. Kambing kacang termasuk
@@ -75,86 +89,94 @@
                         hanya 55–60 cm dan bobotnya 20-30 kg.
                     </p>
                 </div>
+
+                <!-- Ini Header Jumbotron Right -->
                 <figure class="flex-grow-1 m-0 text-center-md">
                     <img src="Asset/image/kambing_kacang.png" alt="" class="pt-5 width-100 width-md-50 width-sm-80">
                 </figure>
             </div>
-
         </article>
+          <!-- ini Jumbotron -->
+          
     </header>
+ <!-- Batas Jumbotron -->
 
-    <div class="flex-column ">
+
+    <div class="flex-column">
+        <!-- ini Main -->
         <div class="flex-grow-1 ">
-
-            <!-- ini main -->
             <main class="flex-row pb-sm-0 pt-sm-0 pb-md-0">
-                <div id="pakan_hijauan" class="flex-grow-1 ">
+                <div  class="flex-grow-1 ">
 
-                    <!--Ini Pakan  Hijauan-->
-                    <article class="flex-column page  b-radius-10 text-center p-1  b-white  page-shadow-black">
+                    <!--Ini Content Pakan  Hijauan-->
+                    <article class="flex-column page  b-radius-10 text-center p-1  b-white  page-shadow-black" id="pakan_hijauan">
                         <div class="flex-grow-1">
+                            <!-- Ini Header Pakan Hijauan -->
                             <h1 class="text-header">Pakan Hijauan</h1>
+
+                            <!-- Ini Bagian Pakan Hijauan -->
                             <div class="flex-row text-content ">
+                                <!-- ini Section Rumput -->
                                 <section class="flex-grow-1 width-30 pl-5 pr-5 pb-1 text-center">
                                     <h1 class="text-sub-header">Rumput</h1>
                                     <img src="Asset/image/rumput_gajah.PNG" alt=""
                                         style="width: 180px; height: 170px; border-radius: 100%;">
-                                    <div class="">
                                         <p>
                                             Rumput gajah, Rumput
                                             raja,rumput kolonjono, tebu,
                                             jerami, padi, dan jerami jagung
                                         </p>
-                                    </div>
                                 </section>
+
+                                  <!-- ini Section Daun -->
                                 <section class="flex-grow-1 width-30 pl-5 pr-5 pb-1 text-center">
                                     <h1 class="text-sub-header">Daun</h1>
                                     <img src="Asset/image/daun_singkong.PNG" alt=""
                                         style="width: 180px; height: 170px; border-radius: 100%;">
-                                    <div class="">
                                         <p>
                                             Daun Singkong, nangka,
                                             albasia, waru, ketela rambat,
                                             murbei, serta leguminoceae
                                         </p>
-                                    </div>
-
                                 </section>
+
+                                  <!-- ini Section Kacang-Kacangan -->
                                 <section class="flex-grow-1 width-30 pl-5 pr-5 pb-1 text-center">
                                     <h1 class="text-sub-header">Kacang-Kacangan</h1>
                                     <img src="Asset/image/kacang_panjang.jpg" alt=""
                                         style="width: 180px; height: 170px; border-radius: 100%;">
-                                    <div class="">
                                         <p>
                                             kacang kedelai, kacang tanah,
                                             kacang hijau, kacang panjang
                                         </p>
-                                    </div>
-
                                 </section>
                             </div>
-
                     </article>
+                      <!-- Batas Content Pakan Hijaun -->
 
-                    <!-- Kandang -->
+                    <!-- ini Content Kandang -->
                     <article class="flex-colomn page b-green text-color-white p-1" id="kandang">
+                        <!-- ini header Content Kandang -->
                         <div class="flex-grow-1">
                             <header>
                                 <h2 class="text-header">Kandang</h2>
                             </header>
-                            <p class="text-content pl-5 pr-5  m-0">
+                            <p class="text-content pl-5 pr-5 ">
                                 Beternak kambing membutuhkan kandang sebagai tempat tinggal.
                                 Berikut beberapa kriteria yang harus dipenuhi untuk membuat kandang
                                 kambing yang baik.
                             </p>
                         </div>
+
+                      <!-- ini Paragraf Content Kandang -->
                         <div class="flex-grow-1">
                             <div class="flex-row pl-4 pr-4  ">
                                 <div class="flex-grow-1 width-50 pt-3 text-center-md">
-                                    <!-- <figure class="m-0"> -->
+                                    <figure class="m-0">
                                     <img src="Asset/image/kandang_kambing.png" class="width-100 width-md-50" alt="">
-                                    <!-- </figure> -->
+                                    </figure>
                                 </div>
+                                
                                 <div class="flex-grow-1 width-50 text-content">
                                     <ol>
                                         <li>kandang terpisah dari rumah 5 m, lokasi kandang tidak lembab, bahan kandang
@@ -189,12 +211,16 @@
                             </div>
                         </div>
                     </article>
-                    <!-- Batas Kandang -->
-                    <!-- COba -->
+                    <!-- Batas Content Kandang -->
+
+                    <!-- Ini Content Penyakit -->
                     <article class="page flex-column b-white p-1  page-shadow-black hidden-content-xs" id="penyakit">
+                        <!-- ini Header Penyakit -->
                         <div class="flex-grow-1">
                             <h1 class="text-header mb-2">Penyakit</h1>
                         </div>
+
+                        <!-- ini Daftar Tabel Penyakit -->
                         <div class="flex-center">
                             <div class="width-75 width-sm-100 width-md-100 text-justify ">
                                 <table class="tabel1 text-content ">
@@ -219,6 +245,7 @@
                                         </td>
                                         <td>Cacingan merupakan penyakit saluran pencernaan yang umum pada ternak.</td>
                                     </tr>
+
                                     <tr id="penyakit2" class="tabel-penyakit">
                                         <td>2.</td>
                                         <td>Kudis (Scabies)</td>
@@ -228,11 +255,11 @@
                                                 <li> Kulit merah </li>
                                                 <li> Kulit menebal </li>
                                                 <li> Bulu rontok </li>
-
                                             </ul>
                                         </td>
                                         <td>Kudis adalah penyakit akibat infeksi parasit kulit. </td>
                                     </tr>
+
                                     <tr id="penyakit3" class="tabel-penyakit">
                                         <td>3.</td>
                                         <td>Perut Kembung</td>
@@ -243,12 +270,12 @@
                                                 <li> Lambung sakit jika dipegang </li>
                                                 <li> Sulit buang kotoran </li>
                                                 <li> Sulit berdiri </li>
-
                                             </ul>
                                         </td>
                                         <td>Perut kembung disebabkan karena adanya kegagalan pengeluaran gas secara
                                             normal dan proses pembentukkan gas asal </td>
                                     </tr>
+
                                     <tr id="penyakit4" class=' tabel-penyakit '>
                                         <td>4.</td>
                                         <td>Diare</td>
@@ -263,6 +290,7 @@
                                         </td>
                                         <td>Diare disebabkan oleh kuman Eimeria sp yang hidup dalam sel-sel usus. </td>
                                     </tr>
+
                                     <tr id="penyakit5" class=' tabel-penyakit'>
                                         <td>5.</td>
                                         <td>Kejang Rumput <br>
@@ -277,6 +305,7 @@
                                         <td>Kejang rumput adalah kelainan akibat kadar ion magnesium dalam darah berada
                                             dibawah batas normal. </td>
                                     </tr>
+
                                     <tr id="penyakit6" class=' tabel-penyakit'>
                                         <td>6.</td>
                                         <td>Kutu</td>
@@ -323,7 +352,7 @@
                                             kambing mengalami pengerasan feses sehingga tidak mudah untuk dibuang
                                             melalui anus yang membuat kambing akan merasa sangat kesakitan</td>
                                     </tr>
-
+                                    
                                     <tr id="penyakit9" class=' tabel-penyakit'>
                                         <td>9.</td>
                                         <td>Pneumonia</td>
@@ -339,7 +368,6 @@
                                                 <li> Kambing mengerang </li>
                                                 <li> Nyeri </li>
                                                 <li> Pernafasan berat </li>
-
                                             </ul>
                                         </td>
                                         <td>
@@ -347,8 +375,9 @@
                                             pasteurella.
                                         </td>
                                     </tr>
-
                                 </table>
+
+                                <!-- ini Button halaman Penyakit -->
                                 <div class="p-2 text-content float-right mt-1 ">
                                     <span class=""><button id="page1"
                                             class="ml-2 mr-2 b-white p-2 img-rounded page-rounded">1</button></span>
@@ -357,16 +386,21 @@
                                     <span class=""><button id="page3"
                                             class="ml-2 mr-2 b-green p-2 img-rounded page-rounded">3</button></span>
                                 </div>
+
                             </div>
                         </div>
                     </article>
-                    <!-- batas coba -->
-                    <!-- Pencatatan Produksi -->
+                    <!-- Batas Content Penyakit -->
+
+                    <!-- Ini Content Pencatatan Produksi -->
                     <article class="page text-center text-content p-1  b-green text-color-white"
                         id="pencatatan_produksi">
+                        <!-- ini Header Pencatatan Produksi -->
                         <header class="flex-grow-1">
                             <h1 class="text-header">Pencatatan Produksi</h1>
                         </header>
+
+                        <!-- Ini Paragraf Pencatatan Produksi -->
                         <div class="flex-row text-justify">
                             <div class="flex-grow-1  width-60 pl-5 pr-sm-5 pr-md-5">
                                 <p>Kegiatan pencatatan pada kartu produksi mengenai berat kambing
@@ -376,15 +410,19 @@
                                     apa yang sedang dialami kambing tersebut
                                 </p>
                             </div>
+
                             <div class="flex-grow-1  width-40 text-center-md">
                                 <figure>
                                     <img src="Asset/image/pencatatan_produksi.PNG" class="width-md-60 width-100">
                                 </figure>
                             </div>
+
                         </div>
                     </article>
                 </div>
+                <!-- Batas Content Pencatatan Produksi -->
 
+                <!-- ini Aside Profile -->
                 <div class="flex-grow-1 ml-sm-0 ml-3 width-60 text-content ml-md-0">
                     <aside class="page page-shadow-black text-center ">
                         <article class="flex-colomn page b-white  pl-2 pr-2 pb-2  ">
@@ -398,6 +436,7 @@
                                     </p>
                                 </caption>
                             </figure>
+
                             <section class="flex-grow-1 text-left  pl-3 font-size-14  font-size-md-25 font-size-sm-16 ">
                                 <h1 class="mb-0 mt-1 text-sub-header text-left">Profile</h1>
                                 <table>
@@ -425,28 +464,33 @@
                                         <td>kampus</td>
                                         <td>: UWKS</td>
                                     </tr>
-
                                 </table>
-
                             </section>
+
                         </article>
                     </aside>
                 </div>
-                <!--Batas Pencatatan Produksi -->
+                <!-- Batas Aside Profile -->
+
             </main>
         </div>
+        <!-- Batas main -->
 
+
+        <!-- ini footer -->
         <div class="flex-grow-1">
-            <!-- ini footer -->
             <footer class="flex-colomn text-color-white  c-white  ">
                 <div class="footer-menu flex-grow-1 ">
                     <div class="flex-row  p-2 pb-3 pr-0 " style="font-family: cursive;">
+
+                        <!-- ini Footer Left -->
                         <figure class="flex-grow-1 width-30 mr-0 mt-5 pt-1 hidden-content-sm hidden-content-md">
                             <img src="Asset/image/logo.png" alt="" class="width-95">
                         </figure>
 
+                        <!-- Ini Footer Center -->
                         <section class="flex-grow-1 width-35 pl-sm-1 pr-sm-1 mr-4 mr-sm-0">
-                            <h1 class=" mb-0 mt-2 ">ABOUT ME</h1>
+                            <h1 class=" mb-0 mt-2 font-size-md-25">ABOUT ME</h1>
                             <p class="mt-1 text-justify text-content">
                                 Website ini merupakan media penyebaran informasi
                                 di bidang peternakan khususnya peternakan kambing kacang,
@@ -454,8 +498,10 @@
                                 pengetahuan peternakan dalam beternak kambing kacang.
                             </p>
                         </section>
+
+                        <!-- Ini Footer Right -->
                         <section class="flex-grow-1 pl-sm-1  width-20 text-content">
-                            <h1 class="mb-0 mt-2 ">FOLLOW US</h1>
+                            <h1 class="mb-0 mt-2 font-size-md-25">FOLLOW US</h1>
                             <ul class="m-0 pl-0 list-style">
                                 <li class="pt-1 pb-1">
                                     <i class="fab fa-facebook-f pr-2"></i><span>KambingKacangKu.yahoo.com
@@ -471,30 +517,36 @@
                     </div>
                 </div>
 
-                <!-- <div class="penguat-warna"> -->
+                <!-- Footer Bottom Menu -->
                 <div
                     class="footer-bottom-menu flex-grow-1 p-2 text-content text-left hidden-content-sm hidden-content-md">
                     <div class="flex-row">
-                        <div class="  flex-grow-1 width-60 pr-4 ">
+
+                        <!-- ini Footer Bottom Menu Left -->
+                        <div class="flex-grow-1 width-60 pr-4 ">
                             <p class="m-0  "
                                 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
                                 &copy; <span id="year"></span> - KambingKacangKU
                             </p>
                         </div>
+
+                        <!-- ini Footer Bottom Menu Right -->
                         <div class="flex-grow-1 text-right width-40 ">
                             <span class="pl-2 pr-2">Daftar Pustaka</span>
                             <span class="pl-2 pr-2">Tentang Kami</span>
                             <span class="pl-2 pr-2 mr-4 ">FAQ</i>
                         </div>
+                        
                     </div>
                 </div>
                 <!-- </div> -->
             </footer>
         </div>
+        <!-- Batas Akhir Footer -->
+
     </div>
 
-    <!-- Batas Akhir Footer -->
+    <!-- ini Kode Untuk JavaScript -->
     <script src="Asset/js/storage.js"></script>
 </body>
-
 </html>

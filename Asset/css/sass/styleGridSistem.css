@@ -1,5 +1,5 @@
-.page {
-  border-radius: 10px;
+.display-inline {
+  display: inline;
 }
 
 .flex-row {
@@ -885,10 +885,6 @@
 }
 
 /* Style Untuk Mengatur Background */
-.display-inline {
-  display: inline;
-}
-
 .b-green {
   background-color: #3aad41d1;
 }
@@ -1041,54 +1037,6 @@
   font-size: 30px;
 }
 
-.img-rounded {
-  border-radius: 100%;
-}
-
-.page-shadow-black {
-  -webkit-box-shadow: 0px 1px 5px #000000b8;
-          box-shadow: 0px 1px 5px #000000b8;
-}
-
-.text-content {
-  text-align: justify;
-  font-family: cursive;
-  font-size: 15px;
-}
-
-.list-style {
-  list-style: none;
-}
-
-tr.tabel-penyakit td:first {
-  width: 5%;
-}
-
-tr.tabel-penyakit td:nth-child(2) {
-  width: 15%;
-  padding-left: 5px;
-}
-
-tr.tabel-penyakit td:nth-child(3) {
-  width: 35%;
-  padding-left: 5px;
-}
-
-tr.tabel-penyakit td:last-child {
-  width: 45%;
-  padding-left: 5px;
-}
-
-.tabel-penyakit th,
-.tabel-penyakit td {
-  border-bottom: 1px solid #999;
-  padding-bottom: 5px;
-}
-
-.page-rounded {
-  border: 1px solid black;
-}
-
 @media screen and (min-width: 600px) and (max-width: 1000px) {
   .hidden-content-md {
     display: none;
@@ -1185,11 +1133,6 @@ tr.tabel-penyakit td:last-child {
   }
   .text-center-md {
     text-align: center;
-  }
-  .text-content {
-    text-align: justify;
-    font-family: cursive;
-    font-size: 22px;
   }
 }
 
@@ -1289,18 +1232,6 @@ tr.tabel-penyakit td:last-child {
   }
   .text-center-sm {
     text-align: center;
-  }
-  tr.tabel-penyakit td:first,
-  tr.tabel-penyakit td:nth-child(2),
-  tr.tabel-penyakit td:nth-child(3),
-  tr.tabel-penyakit td:last-child {
-    width: 0%;
-  }
-  .tabel-penyakit th,
-  .tabel-penyakit td {
-    border-bottom: 1px solid #999;
-    padding-bottom: 5px;
-    font-size: 12px;
   }
 }
 

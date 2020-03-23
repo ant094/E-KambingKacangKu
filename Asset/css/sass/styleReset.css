@@ -24,6 +24,11 @@ a {
   text-decoration: none;
 }
 
+p,
+h1 {
+  margin: 0px;
+}
+
 @media screen and (min-width: 600px) and (max-width: 1000px) {
   main {
     padding: 0px 0px;

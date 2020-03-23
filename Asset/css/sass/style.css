@@ -5,17 +5,8 @@
           box-shadow: -4px 2px 5px black;
 }
 
-.navigasi {
-  /* background-color: #2ba733ad; */
-  background-color: #2ba733eb;
-}
-
 #date {
   border-left: 1px solid #ffffff;
-}
-
-li a .nav-font {
-  font-family: 'Rancho', cursive;
 }
 
 .nav-style {
@@ -25,14 +16,6 @@ li a .nav-font {
 .nav-style:hover {
   border-bottom: 1px dashed #ffffff;
   border-top: 1px dashed #ffffff;
-}
-
-.nav-menu.flex-grow-1 {
-  margin-right: 20px;
-}
-
-.nav-menu ul li {
-  display: inline;
 }
 
 /* Social Media */
@@ -52,7 +35,16 @@ li a .nav-font {
   background: #f80000;
 }
 
-/* Jumbotron */
+/* Batas Header Top Menu */
+.navigasi {
+  background-color: #2ba733eb;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* Header Jumbotron */
 .header-jumbotron {
   background: #39ac41;
 }
@@ -62,7 +54,58 @@ li a .nav-font {
   font-family: cursive;
 }
 
-/* Batas Jumbotron */
+/* Batas Header Jumbotron */
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .header-jumbotron-content {
+    padding-top: 40px;
+    font-family: cursive;
+  }
+  .text-header {
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header-jumbotron-content {
+    padding-top: 10px;
+    font-family: cursive;
+  }
+  .text-header {
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  .text-sub-header {
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    font-size: 30px;
+    margin-bottom: 6px;
+    margin-top: 10px;
+  }
+}
+
+.page {
+  border-radius: 10px;
+}
+
+.img-rounded-100 {
+  border-radius: 100%;
+}
+
+.list-style {
+  list-style: none;
+}
+
+.page-rounded {
+  border: 1px solid black;
+}
+
 .text-header {
   text-align: center;
   font-family: 'Rancho', cursive;
@@ -79,40 +122,68 @@ li a .nav-font {
   margin-top: 10px;
 }
 
+.page-shadow-black {
+  -webkit-box-shadow: 0px 1px 5px #000000b8;
+          box-shadow: 0px 1px 5px #000000b8;
+}
+
+.text-content {
+  text-align: justify;
+  font-family: cursive;
+  font-size: 15px;
+}
+
+tr.tabel-penyakit td:first {
+  width: 5%;
+}
+
+tr.tabel-penyakit td:nth-child(2) {
+  width: 15%;
+  padding-left: 5px;
+}
+
+tr.tabel-penyakit td:nth-child(3) {
+  width: 35%;
+  padding-left: 5px;
+}
+
+tr.tabel-penyakit td:last-child {
+  width: 45%;
+  padding-left: 5px;
+}
+
+.tabel-penyakit th,
+.tabel-penyakit td {
+  border-bottom: 1px solid #999;
+  padding-bottom: 5px;
+}
+
 @media screen and (min-width: 600px) and (max-width: 1000px) {
-  .header-jumbotron-content {
-    padding-top: 40px;
-    font-size: 15px;
-    font-family: cursive;
+  .page {
+    border-radius: 0px;
   }
-  .text-header {
-    text-align: center;
-    font-family: 'Rancho', cursive;
-    font-size: 40px;
-    margin-bottom: 0px;
-    margin-top: 10px;
+  .text-content {
+    text-align: justify;
+    font-family: cursive;
+    font-size: 22px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .header-jumbotron-content {
-    padding-top: 10px;
-    font-size: 15px;
-    font-family: cursive;
+  .page {
+    border-radius: 0px;
   }
-  .text-header {
-    text-align: center;
-    font-family: 'Rancho', cursive;
-    font-size: 40px;
-    margin-bottom: 0px;
-    margin-top: 10px;
+  tr.tabel-penyakit td:first,
+  tr.tabel-penyakit td:nth-child(2),
+  tr.tabel-penyakit td:nth-child(3),
+  tr.tabel-penyakit td:last-child {
+    width: 0%;
   }
-  .text-sub-header {
-    text-align: center;
-    font-family: 'Rancho', cursive;
-    font-size: 30px;
-    margin-bottom: 6px;
-    margin-top: 10px;
+  .tabel-penyakit th,
+  .tabel-penyakit td {
+    border-bottom: 1px solid #999;
+    padding-bottom: 5px;
+    font-size: 12px;
   }
 }
 
