@@ -1,5 +1,4 @@
 .header-top-menu {
-  /* background-color: #2ba733ab; */
   background-color: #2ba733eb;
   -webkit-box-shadow: -4px 2px 5px black;
           box-shadow: -4px 2px 5px black;
@@ -15,10 +14,9 @@
 
 .nav-style:hover {
   border-bottom: 1px dashed #ffffff;
-  border-top: 1px dashed #ffffff;
 }
 
-/* Social Media */
+/*Header Top Menu Social Media */
 .facebook-style:hover {
   background: #395794;
 }
@@ -35,7 +33,6 @@
   background: #f80000;
 }
 
-/* Batas Header Top Menu */
 .navigasi {
   background-color: #2ba733eb;
   position: -webkit-sticky;
@@ -54,39 +51,19 @@
   font-family: cursive;
 }
 
-/* Batas Header Jumbotron */
 @media screen and (min-width: 600px) and (max-width: 1000px) {
+  /* Header Jumbotron 600-1000*/
   .header-jumbotron-content {
     padding-top: 40px;
     font-family: cursive;
   }
-  .text-header {
-    text-align: center;
-    font-family: 'Rancho', cursive;
-    font-size: 40px;
-    margin-bottom: 0px;
-    margin-top: 10px;
-  }
 }
 
 @media screen and (max-width: 600px) {
+  /* Header Jumbotron < 600 */
   .header-jumbotron-content {
     padding-top: 10px;
     font-family: cursive;
-  }
-  .text-header {
-    text-align: center;
-    font-family: 'Rancho', cursive;
-    font-size: 40px;
-    margin-bottom: 0px;
-    margin-top: 10px;
-  }
-  .text-sub-header {
-    text-align: center;
-    font-family: 'Rancho', cursive;
-    font-size: 30px;
-    margin-bottom: 6px;
-    margin-top: 10px;
   }
 }
 
@@ -102,8 +79,18 @@
   list-style: none;
 }
 
-.page-rounded {
-  border: 1px solid black;
+.page-shadow-black {
+  -webkit-box-shadow: 0px 1px 5px #000000b8;
+          box-shadow: 0px 1px 5px #000000b8;
+}
+
+.img-profile {
+  height: 200px;
+}
+
+.img-pakan {
+  height: 170px;
+  width: 180px;
 }
 
 .text-header {
@@ -120,11 +107,6 @@
   font-size: 30px;
   margin-bottom: 10px;
   margin-top: 10px;
-}
-
-.page-shadow-black {
-  -webkit-box-shadow: 0px 1px 5px #000000b8;
-          box-shadow: 0px 1px 5px #000000b8;
 }
 
 .text-content {
@@ -167,11 +149,36 @@ tr.tabel-penyakit td:last-child {
     font-family: cursive;
     font-size: 22px;
   }
+  .text-header {
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  .img-pakan {
+    height: 290px;
+    width: 300px;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .page {
     border-radius: 0px;
+  }
+  .text-header {
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  .text-sub-header {
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    font-size: 30px;
+    margin-bottom: 6px;
+    margin-top: 10px;
   }
   tr.tabel-penyakit td:first,
   tr.tabel-penyakit td:nth-child(2),
@@ -190,18 +197,16 @@ tr.tabel-penyakit td:last-child {
 /* ini Footer */
 .footer-menu {
   background-color: #2ba733;
-  font-size: 15px;
+  font-family: cursive;
 }
 
 .footer-bottom-menu {
   background-color: #3aad41;
-  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* Style Untuk hover footer-right */
 }
 
-/* Style Untuk Mengatur Halaman */
-.list-style li span:hover {
+.footer-bottom-menu .list-style li span:hover {
   border-bottom: 1px solid #ffffff;
 }
-
-/* Batas Footer */
 /*# sourceMappingURL=style.css.map */

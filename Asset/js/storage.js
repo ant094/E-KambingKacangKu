@@ -31,9 +31,9 @@ page1.addEventListener("click", function page1() {
                     document.getElementById(penyakit).style.display = 'table-row';
                 }
             }
-            document.getElementById('page1').classList = 'ml-2 mr-2 b-white p-2 img-rounded page-rounded';
-            document.getElementById('page2').classList = 'ml-2 mr-2 b-green p-2 img-rounded page-rounded';
-             document.getElementById('page3').classList = 'ml-2 mr-2 b-green p-2 img-rounded page-rounded';
+            document.getElementById('page1').classList = 'ml-2 mr-2 b-white p-2 border-solid-1 ';
+            document.getElementById('page2').classList = 'ml-2 mr-2 b-green p-2 border-solid-1 ';
+             document.getElementById('page3').classList = 'ml-2 mr-2 b-green p-2 border-solid-1 ';
         }
 );
 
@@ -45,9 +45,9 @@ page2.addEventListener("click", function page2() {
             document.getElementById(penyakit).style.display = 'table-row';
         }
     }
-        document.getElementById('page1').classList = 'ml-2 mr-2 b-green p-2 img-rounded page-rounded';
-        document.getElementById('page2').classList = 'ml-2 mr-2 b-white p-2 img-rounded page-rounded';
-        document.getElementById('page3').classList = 'ml-2 mr-2 b-green p-2 img-rounded page-rounded';
+        document.getElementById('page1').classList = 'ml-2 mr-2 b-green p-2 border-solid-1 ';
+        document.getElementById('page2').classList = 'ml-2 mr-2 b-white p-2 border-solid-1 ';
+        document.getElementById('page3').classList = 'ml-2 mr-2 b-green p-2 border-solid-1 ';
 });
 
 page3.addEventListener("click", function page3() {
@@ -58,8 +58,8 @@ page3.addEventListener("click", function page3() {
             document.getElementById(penyakit).style.display = 'table-row';
         }
     }
-    document.getElementById('page1').classList = 'ml-2 mr-2 b-green p-2 img-rounded page-rounded';
-    document.getElementById('page2').classList = 'ml-2 mr-2 b-green p-2 img-rounded page-rounded';
-    document.getElementById('page3').classList = 'ml-2 mr-2 b-white p-2 img-rounded page-rounded';
+    document.getElementById('page1').classList = 'ml-2 mr-2 b-green p-2 border-solid-1 ';
+    document.getElementById('page2').classList = 'ml-2 mr-2 b-green p-2 border-solid-1 ';
+    document.getElementById('page3').classList = 'ml-2 mr-2 b-white p-2 border-solid-1 ';
 });
 

@@ -1,16 +1,14 @@
 /* ini Footer */
-
 .footer-menu {
     background-color: #2ba733;
-    font-size: 15px;
+    font-family: cursive;
 }
 
 .footer-bottom-menu {
     background-color: #3aad41;
-    font-size: 15px;
-}
- /* Style Untuk Mengatur Halaman */
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+ /* Style Untuk hover footer-right */
 .list-style{
     li{
          span:hover{
@@ -18,4 +16,4 @@
                     }
     }
 }
-/* Batas Footer */
+}

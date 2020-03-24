@@ -1,3 +1,4 @@
+// ini Display
 .display-inline {
     display: inline;
 }
@@ -20,7 +21,6 @@
 .flex-grow-1{
     flex-grow: 1;
 }
-// batas Flex box
 
 // ini Float
 .float-left{
@@ -29,23 +29,24 @@
 .float-right{
     float: right;
 }
-// batas Float
+
+// Style Border
+.border-solid-1 {
+    border: 1px solid black;
+}
 
 // ini batas width
 @for $i from 2 through 20 {
     $kali: $i * 10;
     $bagi: $kali / 2;
     $persent: $bagi * 1%;
-    // $counter : 10;
-    //   $i :  $i + 10;
     .width-#{$bagi}
         {
        width: $persent;
     }
 }
-// batas width
 
-// ini padding
+// ini padding dan margin 
 @for $i from 0 to 6 {
       $nilaiPaddingMargin: $i * 5px;
 
@@ -64,8 +65,7 @@
     .pl-#{$i}{
         padding-left: $nilaiPaddingMargin;
     }
-// batas Padding
-// Ini Margin
+
     .m-#{$i} {
         margin: $nilaiPaddingMargin;
     }
@@ -82,28 +82,22 @@
         margin-left: $nilaiPaddingMargin;
     }
 }
-// Batas Margin
 
 @media screen and (min-width: 600px) and (max-width: 1000px) {
-    .page {
-        border-radius: 0px;
-    }
 
-    // ini Flex box
+    // ini Flex box 600-1000
     .flex-colomn,
     .flex-center,
     .flex-row {
         display: flex;
         flex-direction: column;
     }
-
     .flex-grow-1 {
         flex-grow: 1;
         width: 100%;
     }
 
-    // batas Flex box
-
+     // ini width-md 600-1000
     @for $i from 2 through 20 {
         $kali: $i * 10;
         $bagi: $kali / 2;
@@ -114,6 +108,7 @@
         }
     }
 
+       // ini padding dan margin 600-1000
     @for $i from 0 to 6 {
         $nilaiPaddingMargin: $i * 5px;
 
@@ -136,20 +131,16 @@
         .pl-md-#{$i} {
             padding-left: $nilaiPaddingMargin;
         }
-
-        // batas Padding
+    
         .m-md-#{$i} {
             margin: $nilaiPaddingMargin;
         }
-
         .mt-md-#{$i} {
             margin-top: $nilaiPaddingMargin;
         }
-
         .mr-md-#{$i} {
             margin-right: $nilaiPaddingMargin;
         }
-
         .mb-md-#{$i} {
             margin-bottom: $nilaiPaddingMargin;
         }
@@ -164,19 +155,19 @@
     .page {
     border-radius: 0px;
 }
-// ini Flex box
+// ini Flex box < 600
 .flex-colomn , 
 .flex-center,
 .flex-row {
     display: flex;
     flex-direction: column;
 }
-
 .flex-grow-1{
     flex-grow: 1;
     width: 100%;
 }
 
+// ini width-sm < 600
     @for $i from 2 through 20 {
         $kali: $i * 10;
         $bagi: $kali / 2;
@@ -188,6 +179,7 @@
         }
     }
 
+    // ini padding dan margin < 600
    @for $i from 0 to 6 {
        $nilaiPaddingMargin: $i * 5px;
 
@@ -206,7 +198,7 @@
        .pl-sm-#{$i} {
            padding-left: $nilaiPaddingMargin;
        }
-       // batas Padding
+
        .m-sm-#{$i} {
            margin: $nilaiPaddingMargin;
        }

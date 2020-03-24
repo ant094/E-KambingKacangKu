@@ -48,6 +48,10 @@
   float: right;
 }
 
+.border-solid-1 {
+  border: 1px solid black;
+}
+
 .width-10 {
   width: 10%;
 }
@@ -365,9 +369,6 @@
 }
 
 @media screen and (min-width: 600px) and (max-width: 1000px) {
-  .page {
-    border-radius: 0px;
-  }
   .flex-colomn,
   .flex-center,
   .flex-row {

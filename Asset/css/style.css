@@ -1,0 +1,211 @@
+.header-top-menu {
+    /* background-color: #2ba733ab; */
+    background-color: #2ba733eb;
+    -webkit-box-shadow: -4px 2px 5px black;
+    box-shadow: -4px 2px 5px black;
+}
+
+#date {
+    border-left: 1px solid #ffffff;
+}
+
+.nav-style {
+    font-family: 'Rancho', cursive;
+}
+
+.nav-style:hover {
+    border-bottom: 1px dashed #ffffff;
+    border-top: 1px dashed #ffffff;
+}
+
+/* Social Media */
+.facebook-style:hover {
+    background: #395794;
+}
+
+.instagram-style:hover {
+    background: #ec38bc;
+}
+
+.twitter-style:hover {
+    background: #1d9dec;
+}
+
+.youtube-style:hover {
+    background: #f80000;
+}
+
+/* Batas Header Top Menu */
+.navigasi {
+    background-color: #2ba733eb;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/* Header Jumbotron */
+.header-jumbotron {
+    background: #39ac41;
+}
+
+.header-jumbotron-content {
+    padding-top: 145px;
+    font-family: cursive;
+}
+
+/* Batas Header Jumbotron */
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+    .header-jumbotron-content {
+        padding-top: 40px;
+        font-family: cursive;
+    }
+
+    .text-header {
+        text-align: center;
+        font-family: 'Rancho', cursive;
+        font-size: 40px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header-jumbotron-content {
+        padding-top: 10px;
+        font-family: cursive;
+    }
+
+    .text-header {
+        text-align: center;
+        font-family: 'Rancho', cursive;
+        font-size: 40px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+
+    .text-sub-header {
+        text-align: center;
+        font-family: 'Rancho', cursive;
+        font-size: 30px;
+        margin-bottom: 6px;
+        margin-top: 10px;
+    }
+}
+
+.page {
+    border-radius: 10px;
+}
+
+.img-rounded-100 {
+    border-radius: 100%;
+}
+
+.list-style {
+    list-style: none;
+}
+
+.page-rounded {
+    border: 1px solid black;
+}
+
+.text-header {
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    font-size: 45px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.text-sub-header {
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.page-shadow-black {
+    -webkit-box-shadow: 0px 1px 5px #000000b8;
+    box-shadow: 0px 1px 5px #000000b8;
+}
+
+.text-content {
+    text-align: justify;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+tr.tabel-penyakit td:first {
+    width: 5%;
+}
+
+tr.tabel-penyakit td:nth-child(2) {
+    width: 15%;
+    padding-left: 5px;
+}
+
+tr.tabel-penyakit td:nth-child(3) {
+    width: 35%;
+    padding-left: 5px;
+}
+
+tr.tabel-penyakit td:last-child {
+    width: 45%;
+    padding-left: 5px;
+}
+
+.tabel-penyakit th,
+.tabel-penyakit td {
+    border-bottom: 1px solid #999;
+    padding-bottom: 5px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+    .page {
+        border-radius: 0px;
+    }
+
+    .text-content {
+        text-align: justify;
+        font-family: cursive;
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .page {
+        border-radius: 0px;
+    }
+
+    tr.tabel-penyakit td:first,
+    tr.tabel-penyakit td:nth-child(2),
+    tr.tabel-penyakit td:nth-child(3),
+    tr.tabel-penyakit td:last-child {
+        width: 0%;
+    }
+
+    .tabel-penyakit th,
+    .tabel-penyakit td {
+        border-bottom: 1px solid #999;
+        padding-bottom: 5px;
+        font-size: 12px;
+    }
+}
+
+/* ini Footer */
+.footer-menu {
+    background-color: #2ba733;
+    font-size: 15px;
+}
+
+.footer-bottom-menu {
+    background-color: #3aad41;
+    font-size: 15px;
+}
+
+/* Style Untuk hover footer-right */
+.list-style li span:hover {
+    border-bottom: 1px solid #ffffff;
+}
+/* Batas Footer */

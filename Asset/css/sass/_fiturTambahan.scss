@@ -8,11 +8,11 @@
 }
 // ini batas background
 
+// ini Style text
 .text-color-white {
     color: #ffffff;
 }
 
-// ini font-size
 .text-center {
     text-align: center;
 }
@@ -25,7 +25,9 @@
 .text-justify {
     text-align: justify;
 }
+// Batas Style text
 
+// ini font-size
 @for $i from 0 to 31 {
 
     $font-size: $i * 1px;
@@ -37,47 +39,46 @@
 //Batas Font-size
 
 @media screen and  (min-width: 600px) and  (max-width: 1000px) {
+    // ini Hidden Content 600 -  1000
     .hidden-content-md {
         display: none;
     }
 
+  // ini font-size 600 -  1000
     @for $i from 1 to 31 {
-
         $font-size: $i * 1px;
-
         .font-size-md-#{$i} {
             font-size: $font-size;
         }
     }
-
+  // ini Text-center 600 - 1000
     .text-center-md {
         text-align: center;
     }
-
-    
-    
 }
 
 @media screen and (max-width: 600px) {
+     // ini Hidden Content < 600
       .hidden-content-sm {
           display: none;
       }
 
+ // ini font-size < 600
   @for $i from 1 to 31 {
-
       $font-size: $i * 1px;
-
       .font-size-sm-#{$i} {
           font-size: $font-size;
       }
   }
+
+// ini Text-center < 600
 .text-center-sm{
     text-align: center;
 }
-
    }
 
    @media screen and (max-width: 300px) {
+         // ini Hidden Content < 300
     .hidden-content-xs{
        display: none;
     }

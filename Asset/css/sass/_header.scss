@@ -1,27 +1,22 @@
  // header Top Menu
  .header-top-menu {
-     /* background-color: #2ba733ab; */
      background-color: #2ba733eb;
      box-shadow: -4px 2px 5px black;
  }
 
-// kanan
+// header Top Menu Right
  #date {
      border-left: 1px solid #ffffff;
  }
-//  kiri
-
+//  header Top Menu left
 .nav-style {
     font-family: 'Rancho', cursive;
-   
 }
 .nav-style:hover {
     border-bottom: 1px dashed #ffffff;
-    border-top: 1px dashed #ffffff;
 }
 
-
-/* Social Media */
+/*Header Top Menu Social Media */
 .facebook-style:hover {
     background: #395794;
 }
@@ -37,7 +32,6 @@
 .youtube-style:hover {
     background: #f80000;
 }
-/* Batas Header Top Menu */
 
 // Navigasi
  .navigasi {
@@ -46,56 +40,28 @@
      top: 0;
      z-index: 1;
  }
-// Batas Navigasi
 
 /* Header Jumbotron */
 .header-jumbotron {
     background: #39ac41;
 }
-
 .header-jumbotron-content {
     padding-top: 145px;
     font-family: cursive;
 }
-/* Batas Header Jumbotron */
 
 @media screen and (min-width: 600px) and (max-width: 1000px) {
-
+/* Header Jumbotron 600-1000*/
     .header-jumbotron-content {
         padding-top: 40px;
         font-family: cursive;
     }
-
-    .text-header {
-        text-align: center;
-        font-family: 'Rancho', cursive;
-        font-size: 40px;
-        margin-bottom: 0px;
-        margin-top: 10px;
-    }
-
 }
 
 @media screen and (max-width: 600px) {
-
+/* Header Jumbotron < 600 */
  .header-jumbotron-content {
      padding-top: 10px;
      font-family: cursive;
  }
-
- .text-header {
-     text-align: center;
-     font-family: 'Rancho', cursive;
-     font-size: 40px;
-     margin-bottom: 0px;
-     margin-top: 10px;
- }
- .text-sub-header {
-     text-align: center;
-     font-family: 'Rancho', cursive;
-     font-size: 30px;
-     margin-bottom: 6px;
-     margin-top: 10px;
- }
-
 }
