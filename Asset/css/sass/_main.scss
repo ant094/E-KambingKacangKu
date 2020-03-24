@@ -1,4 +1,4 @@
-// style untuk Halamann
+/* style untuk Halaman  */
 .page {
     border-radius: 10px;
 }
@@ -12,18 +12,18 @@
     box-shadow: 0px 1px 5px #000000b8;
 }
 
- // Style img Profile
+ /* Style img Profile  */
 .img-profile{
     height: 200px;
 }
 
- // Style img Pakan Hijauan 
+ /* Style img Pakan Hijauan   */
 .img-pakan{
     height: 170px;
     width: 180px;
 }
 
-// Style Text
+/* Style Text  */
 .text-header {
     text-align: center;
     font-family: 'Rancho', cursive;
@@ -44,7 +44,7 @@
     font-size: 15px;
 }
 
-// Code untuk Menset tabel Penyakit
+/* Code untuk Menset tabel Penyakit  */
 tr.tabel-penyakit td:first {
     width: 5%;
 }
@@ -72,12 +72,12 @@ tr.tabel-penyakit td:last-child {
 }
 
 @media screen and (min-width: 600px) and (max-width: 1000px) {
-    // style untuk Halaman 600 - 1000
+    /* style untuk Halaman 600 - 1000  */
     .page {
         border-radius: 0px;
     }
 
-// Style Text 600 - 1000
+/* Style Text 600 - 1000  */
     .text-content {
         text-align: justify;
         font-family: cursive;
@@ -91,7 +91,7 @@ tr.tabel-penyakit td:last-child {
          margin-top: 10px;
      }
 
-     // Style img Pakan Hijauan 600 - 1000
+     /* Style img Pakan Hijauan 600 - 1000  */
      .img-pakan {
          height: 290px;
          width: 300px;
@@ -99,12 +99,12 @@ tr.tabel-penyakit td:last-child {
 }
 
  @media screen and (max-width: 600px) {
-     // style untuk Halaman < 600
+     /* style untuk Halaman < 600  */
      .page {
          border-radius: 0px;
      }
 
-// style Text < 600
+/* style Text < 600  */
      .text-header {
          text-align: center;
          font-family: 'Rancho', cursive;
@@ -120,7 +120,7 @@ tr.tabel-penyakit td:last-child {
          margin-top: 10px;
      }
 
-     // Code untuk Menset tabel Penyakit < 600
+     /* Code untuk Menset tabel Penyakit < 600  */
     tr.tabel-penyakit td:first,
     tr.tabel-penyakit td:nth-child(2),
     tr.tabel-penyakit td:nth-child(3),

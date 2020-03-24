@@ -1,0 +1,44 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #39ac4129;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+main {
+    overflow: auto;
+    padding: 10px 0px 10px 30px;
+}
+
+header {
+    background-color: #58b85d;
+}
+
+a {
+    text-decoration: none;
+}
+
+p,
+h1 {
+    margin: 0px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+    main {
+        padding: 0px 0px;
+        overflow: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        padding: 0px 0px;
+        overflow: auto;
+    }
+}

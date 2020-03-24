@@ -1,3 +1,68 @@
-body {
-  background-color: red;
+/*  header Top Menu
+ .header-top-menu {
+     background-color: #2ba733eb;
+     box-shadow: -4px 2px 5px black;
+ }
+
+/* header Top Menu Right
+ #date {
+     border-left: 1px solid #ffffff;
+ }
+/*  header Top Menu left
+.nav-style {
+    font-family: 'Rancho', cursive;
+}
+.nav-style:hover {
+    border-bottom: 1px dashed #ffffff;
+}
+
+/* Header Top Menu Social Media */
+.facebook-style:hover {
+  background: #395794;
+}
+
+.instagram-style:hover {
+  background: #ec38bc;
+}
+
+.twitter-style:hover {
+  background: #1d9dec;
+}
+
+.youtube-style:hover {
+  background: #f80000;
+}
+
+/* Navigasi
+ .navigasi {
+     background-color: #2ba733eb;
+     position: sticky;
+     top: 0;
+     z-index: 1;
+ }
+
+/* Header Jumbotron */
+.header-jumbotron {
+  background: #39ac41;
+}
+
+.header-jumbotron-content {
+  padding-top: 145px;
+  font-family: cursive;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  /* Header Jumbotron 600-1000*/
+  .header-jumbotron-content {
+    padding-top: 40px;
+    font-family: cursive;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* Header Jumbotron < 600 */
+  .header-jumbotron-content {
+    padding-top: 10px;
+    font-family: cursive;
+  }
 }

@@ -1,13 +1,16 @@
+/*  header Top Menu  */
 .header-top-menu {
   background-color: #2ba733eb;
   -webkit-box-shadow: -4px 2px 5px black;
           box-shadow: -4px 2px 5px black;
 }
 
+/* header Top Menu Right  */
 #date {
   border-left: 1px solid #ffffff;
 }
 
+/*  header Top Menu left  */
 .nav-style {
   font-family: 'Rancho', cursive;
 }
@@ -16,7 +19,7 @@
   border-bottom: 1px dashed #ffffff;
 }
 
-/*Header Top Menu Social Media */
+/* Header Top Menu Social Media */
 .facebook-style:hover {
   background: #395794;
 }
@@ -33,6 +36,7 @@
   background: #f80000;
 }
 
+/* Navigasi  */
 .navigasi {
   background-color: #2ba733eb;
   position: -webkit-sticky;
@@ -67,6 +71,7 @@
   }
 }
 
+/* style untuk Halaman  */
 .page {
   border-radius: 10px;
 }
@@ -84,15 +89,18 @@
           box-shadow: 0px 1px 5px #000000b8;
 }
 
+/* Style img Profile  */
 .img-profile {
   height: 200px;
 }
 
+/* Style img Pakan Hijauan   */
 .img-pakan {
   height: 170px;
   width: 180px;
 }
 
+/* Style Text  */
 .text-header {
   text-align: center;
   font-family: 'Rancho', cursive;
@@ -115,6 +123,7 @@
   font-size: 15px;
 }
 
+/* Code untuk Menset tabel Penyakit  */
 tr.tabel-penyakit td:first {
   width: 5%;
 }
@@ -141,9 +150,11 @@ tr.tabel-penyakit td:last-child {
 }
 
 @media screen and (min-width: 600px) and (max-width: 1000px) {
+  /* style untuk Halaman 600 - 1000  */
   .page {
     border-radius: 0px;
   }
+  /* Style Text 600 - 1000  */
   .text-content {
     text-align: justify;
     font-family: cursive;
@@ -156,6 +167,7 @@ tr.tabel-penyakit td:last-child {
     margin-bottom: 0px;
     margin-top: 10px;
   }
+  /* Style img Pakan Hijauan 600 - 1000  */
   .img-pakan {
     height: 290px;
     width: 300px;
@@ -163,9 +175,11 @@ tr.tabel-penyakit td:last-child {
 }
 
 @media screen and (max-width: 600px) {
+  /* style untuk Halaman < 600  */
   .page {
     border-radius: 0px;
   }
+  /* style Text < 600  */
   .text-header {
     text-align: center;
     font-family: 'Rancho', cursive;
@@ -180,6 +194,7 @@ tr.tabel-penyakit td:last-child {
     margin-bottom: 6px;
     margin-top: 10px;
   }
+  /* Code untuk Menset tabel Penyakit < 600  */
   tr.tabel-penyakit td:first,
   tr.tabel-penyakit td:nth-child(2),
   tr.tabel-penyakit td:nth-child(3),
@@ -209,4 +224,6 @@ tr.tabel-penyakit td:last-child {
 .footer-bottom-menu .list-style li span:hover {
   border-bottom: 1px solid #ffffff;
 }
+
+/* Batas Footer */
 /*# sourceMappingURL=style.css.map */

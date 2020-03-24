@@ -1,7 +1,9 @@
+/* ini Display  */
 .display-inline {
   display: inline;
 }
 
+/* ini Flex box  */
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -22,6 +24,7 @@
   flex-grow: 1;
 }
 
+/* ini Float  */
 .float-left {
   float: left;
 }
@@ -30,10 +33,12 @@
   float: right;
 }
 
+/* Style Border  */
 .border-solid-1 {
   border: 1px solid black;
 }
 
+/* ini batas width  */
 .width-10 {
   width: 10%;
 }
@@ -110,6 +115,7 @@
   width: 100%;
 }
 
+/* ini padding dan margin   */
 .p-0 {
   padding: 0px;
 }
@@ -351,6 +357,7 @@
 }
 
 @media screen and (min-width: 600px) and (max-width: 1000px) {
+  /* ini Flex box 600-1000  */
   .flex-colomn,
   .flex-center,
   .flex-row {
@@ -361,6 +368,7 @@
     flex-grow: 1;
     width: 100%;
   }
+  /* ini width-md 600-1000  */
   .width-md-10 {
     width: 10%;
   }
@@ -418,6 +426,7 @@
   .width-md-100 {
     width: 100%;
   }
+  /* ini padding dan margin 600-1000 */
   .p-md-0 {
     padding: 0px;
   }
@@ -604,6 +613,7 @@
   .page {
     border-radius: 0px;
   }
+  /* ini Flex box < 600  */
   .flex-colomn,
   .flex-center,
   .flex-row {
@@ -614,6 +624,7 @@
     flex-grow: 1;
     width: 100%;
   }
+  /* ini width-sm < 600  */
   .width-sm-10 {
     width: 10%;
   }
@@ -671,6 +682,7 @@
   .width-sm-100 {
     width: 100%;
   }
+  /* ini padding dan margin < 600  */
   .p-sm-0 {
     padding: 0px;
   }

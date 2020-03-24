@@ -1,9 +1,9 @@
-// ini Display
+/* ini Display  */
 .display-inline {
     display: inline;
 }
 
-// ini Flex box
+/* ini Flex box  */
 .flex-row{
     display: flex;
     flex-direction: row;
@@ -22,7 +22,7 @@
     flex-grow: 1;
 }
 
-// ini Float
+/* ini Float  */
 .float-left{
     float: left;
 }
@@ -30,12 +30,12 @@
     float: right;
 }
 
-// Style Border
+/* Style Border  */
 .border-solid-1 {
     border: 1px solid black;
 }
 
-// ini batas width
+/* ini batas width  */
 @for $i from 2 through 20 {
     $kali: $i * 10;
     $bagi: $kali / 2;
@@ -46,7 +46,7 @@
     }
 }
 
-// ini padding dan margin 
+/* ini padding dan margin   */
 @for $i from 0 to 6 {
       $nilaiPaddingMargin: $i * 5px;
 
@@ -85,7 +85,7 @@
 
 @media screen and (min-width: 600px) and (max-width: 1000px) {
 
-    // ini Flex box 600-1000
+    /* ini Flex box 600-1000  */
     .flex-colomn,
     .flex-center,
     .flex-row {
@@ -97,7 +97,7 @@
         width: 100%;
     }
 
-     // ini width-md 600-1000
+     /* ini width-md 600-1000  */
     @for $i from 2 through 20 {
         $kali: $i * 10;
         $bagi: $kali / 2;
@@ -108,7 +108,7 @@
         }
     }
 
-       // ini padding dan margin 600-1000
+       /* ini padding dan margin 600-1000 */  
     @for $i from 0 to 6 {
         $nilaiPaddingMargin: $i * 5px;
 
@@ -155,7 +155,7 @@
     .page {
     border-radius: 0px;
 }
-// ini Flex box < 600
+/* ini Flex box < 600  */
 .flex-colomn , 
 .flex-center,
 .flex-row {
@@ -167,7 +167,7 @@
     width: 100%;
 }
 
-// ini width-sm < 600
+/* ini width-sm < 600  */
     @for $i from 2 through 20 {
         $kali: $i * 10;
         $bagi: $kali / 2;
@@ -179,7 +179,7 @@
         }
     }
 
-    // ini padding dan margin < 600
+    /* ini padding dan margin < 600  */
    @for $i from 0 to 6 {
        $nilaiPaddingMargin: $i * 5px;
 
