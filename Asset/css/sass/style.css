@@ -221,7 +221,7 @@ tr.tabel-penyakit td:last-child {
   /* Style Untuk hover footer-right */
 }
 
-.footer-bottom-menu .list-style li span:hover {
+.list-style li span:hover {
   border-bottom: 1px solid #ffffff;
 }
 
